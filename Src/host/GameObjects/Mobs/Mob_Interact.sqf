@@ -107,8 +107,6 @@ func(clickTarget)
 
 
 		} else {
-			//далеко для интеракции
-			if (callSelf(getLastInteractDistance)>INTERACT_ITEM_DISTANCE)exitWith {};
 			if (getSelf(lastActionTime) > tickTime) exitWith {};
 			setSelf(lastActionTime,tickTime + 0.3);
 
@@ -332,7 +330,7 @@ func(onInteractWith)
 			
 			callFuncParams(_with,interactTo,this arg _usr);
 		};
-		if (isTypeOf(_with,Key) || isTypeOf(_with,Lockpick)) exitwith {
+		if (isTypeOf(_with,Key) || isTypeOf(_with,Lockpick) || isTypeOf(_with,KeyChain)) exitwith {
 			if ( 
 				callSelf(isHandcuffed) && 
 				getVar(_usr,curTargZone) in [TARGET_ZONE_ARM_L,TARGET_ZONE_ARM_R]
