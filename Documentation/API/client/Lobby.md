@@ -154,7 +154,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 674](../../../Src/client/Lobby/CharSettings.sqf#L674)
+File: [client\Lobby\CharSettings.sqf at line 679](../../../Src/client/Lobby/CharSettings.sqf#L679)
 ## lobby_onSetFaceCode
 
 Type: function
@@ -163,7 +163,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 704](../../../Src/client/Lobby/CharSettings.sqf#L704)
+File: [client\Lobby\CharSettings.sqf at line 709](../../../Src/client/Lobby/CharSettings.sqf#L709)
 ## lobby_setVice
 
 Type: function
@@ -172,7 +172,7 @@ Description:
 - Param: _class
 - Param: _name
 
-File: [client\Lobby\CharSettings.sqf at line 743](../../../Src/client/Lobby/CharSettings.sqf#L743)
+File: [client\Lobby\CharSettings.sqf at line 748](../../../Src/client/Lobby/CharSettings.sqf#L748)
 ## lobby_onSetVice
 
 Type: function
@@ -180,7 +180,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 782](../../../Src/client/Lobby/CharSettings.sqf#L782)
+File: [client\Lobby\CharSettings.sqf at line 787](../../../Src/client/Lobby/CharSettings.sqf#L787)
 ## lobby_onSetViceCode
 
 Type: function
@@ -189,7 +189,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 799](../../../Src/client/Lobby/CharSettings.sqf#L799)
+File: [client\Lobby\CharSettings.sqf at line 804](../../../Src/client/Lobby/CharSettings.sqf#L804)
 ## lobby_setBlood
 
 Type: function
@@ -197,7 +197,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 821](../../../Src/client/Lobby/CharSettings.sqf#L821)
+File: [client\Lobby\CharSettings.sqf at line 826](../../../Src/client/Lobby/CharSettings.sqf#L826)
 ## lobby_onSetBlood
 
 Type: function
@@ -205,7 +205,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 870](../../../Src/client/Lobby/CharSettings.sqf#L870)
+File: [client\Lobby\CharSettings.sqf at line 875](../../../Src/client/Lobby/CharSettings.sqf#L875)
 ## lobby_onSetBloodCode
 
 Type: function
@@ -214,7 +214,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 893](../../../Src/client/Lobby/CharSettings.sqf#L893)
+File: [client\Lobby\CharSettings.sqf at line 898](../../../Src/client/Lobby/CharSettings.sqf#L898)
 ## lobby_onSetGender
 
 Type: function
@@ -222,7 +222,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 913](../../../Src/client/Lobby/CharSettings.sqf#L913)
+File: [client\Lobby\CharSettings.sqf at line 918](../../../Src/client/Lobby/CharSettings.sqf#L918)
 ## lobby_onSetGenderCode
 
 Type: function
@@ -231,7 +231,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 937](../../../Src/client/Lobby/CharSettings.sqf#L937)
+File: [client\Lobby\CharSettings.sqf at line 942](../../../Src/client/Lobby/CharSettings.sqf#L942)
 ## lobby_onSetFamily
 
 Type: function
@@ -239,7 +239,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 951](../../../Src/client/Lobby/CharSettings.sqf#L951)
+File: [client\Lobby\CharSettings.sqf at line 956](../../../Src/client/Lobby/CharSettings.sqf#L956)
 ## lobby_onSetFamilyCode
 
 Type: function
@@ -248,7 +248,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 983](../../../Src/client/Lobby/CharSettings.sqf#L983)
+File: [client\Lobby\CharSettings.sqf at line 988](../../../Src/client/Lobby/CharSettings.sqf#L988)
 ## lobby_onSetMainHand
 
 Type: function
@@ -256,7 +256,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 1003](../../../Src/client/Lobby/CharSettings.sqf#L1003)
+File: [client\Lobby\CharSettings.sqf at line 1008](../../../Src/client/Lobby/CharSettings.sqf#L1008)
 ## lobby_onSetMainHandCode
 
 Type: function
@@ -265,7 +265,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 1018](../../../Src/client/Lobby/CharSettings.sqf#L1018)
+File: [client\Lobby\CharSettings.sqf at line 1023](../../../Src/client/Lobby/CharSettings.sqf#L1023)
 ## lobby_onSetRole
 
 Type: function
@@ -273,7 +273,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 1028](../../../Src/client/Lobby/CharSettings.sqf#L1028)
+File: [client\Lobby\CharSettings.sqf at line 1033](../../../Src/client/Lobby/CharSettings.sqf#L1033)
 ## lobby_onSetRoleCode
 
 Type: function
@@ -282,7 +282,7 @@ Description:
 - Param: _wid
 - Param: _val
 
-File: [client\Lobby\CharSettings.sqf at line 1052](../../../Src/client/Lobby/CharSettings.sqf#L1052)
+File: [client\Lobby\CharSettings.sqf at line 1057](../../../Src/client/Lobby/CharSettings.sqf#L1057)
 ## lobby_resizingByRoleChanged
 
 Type: function
@@ -292,7 +292,7 @@ Description:
 - Param: _y
 - Param: _w
 
-File: [client\Lobby\CharSettings.sqf at line 1088](../../../Src/client/Lobby/CharSettings.sqf#L1088)
+File: [client\Lobby\CharSettings.sqf at line 1093](../../../Src/client/Lobby/CharSettings.sqf#L1093)
 ## lobby_setRole
 
 Type: function
@@ -300,7 +300,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 1101](../../../Src/client/Lobby/CharSettings.sqf#L1101)
+File: [client\Lobby\CharSettings.sqf at line 1106](../../../Src/client/Lobby/CharSettings.sqf#L1106)
 ## lobby_setEnableCharSetting
 
 Type: function
@@ -308,7 +308,7 @@ Type: function
 Description: 
 - Param: _mode
 
-File: [client\Lobby\CharSettings.sqf at line 1150](../../../Src/client/Lobby/CharSettings.sqf#L1150)
+File: [client\Lobby\CharSettings.sqf at line 1155](../../../Src/client/Lobby/CharSettings.sqf#L1155)
 ## lobby_initReadyButton
 
 Type: function
@@ -316,7 +316,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\CharSettings.sqf at line 1171](../../../Src/client/Lobby/CharSettings.sqf#L1171)
+File: [client\Lobby\CharSettings.sqf at line 1176](../../../Src/client/Lobby/CharSettings.sqf#L1176)
 ## lobby_switchReady
 
 Type: function
@@ -325,7 +325,7 @@ Description:
 - Param: _wid
 - Param: _butt
 
-File: [client\Lobby\CharSettings.sqf at line 1221](../../../Src/client/Lobby/CharSettings.sqf#L1221)
+File: [client\Lobby\CharSettings.sqf at line 1226](../../../Src/client/Lobby/CharSettings.sqf#L1226)
 ## lobby_onSwitchReadyCallback
 
 Type: function
@@ -333,7 +333,7 @@ Type: function
 Description: 
 - Param: _newMode
 
-File: [client\Lobby\CharSettings.sqf at line 1253](../../../Src/client/Lobby/CharSettings.sqf#L1253)
+File: [client\Lobby\CharSettings.sqf at line 1258](../../../Src/client/Lobby/CharSettings.sqf#L1258)
 # Events.sqf
 
 ## lobby_sendToServerSetting
@@ -595,7 +595,7 @@ Replaced value:
 ```sqf
 0
 ```
-File: [client\Lobby\functions.sqf at line 427](../../../Src/client/Lobby/functions.sqf#L427)
+File: [client\Lobby\functions.sqf at line 446](../../../Src/client/Lobby/functions.sqf#L446)
 ## DEFADE_GUI_ELEMENTS_TIME
 
 Type: constant
@@ -607,7 +607,7 @@ Replaced value:
 ```sqf
 5
 ```
-File: [client\Lobby\functions.sqf at line 587](../../../Src/client/Lobby/functions.sqf#L587)
+File: [client\Lobby\functions.sqf at line 606](../../../Src/client/Lobby/functions.sqf#L606)
 ## lobby_isMusicEnabled
 
 Type: Variable
@@ -619,7 +619,7 @@ Initial value:
 ```sqf
 true
 ```
-File: [client\Lobby\functions.sqf at line 382](../../../Src/client/Lobby/functions.sqf#L382)
+File: [client\Lobby\functions.sqf at line 401](../../../Src/client/Lobby/functions.sqf#L401)
 ## lobby_internal_progressclose
 
 Type: Variable
@@ -631,7 +631,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [client\Lobby\functions.sqf at line 571](../../../Src/client/Lobby/functions.sqf#L571)
+File: [client\Lobby\functions.sqf at line 590](../../../Src/client/Lobby/functions.sqf#L590)
 ## lobbyOpen
 
 Type: function
@@ -647,7 +647,7 @@ Type: function
 Description: 
 - Param: _mode
 
-File: [client\Lobby\functions.sqf at line 385](../../../Src/client/Lobby/functions.sqf#L385)
+File: [client\Lobby\functions.sqf at line 404](../../../Src/client/Lobby/functions.sqf#L404)
 ## lobby_onLoad
 
 Type: function
@@ -655,7 +655,7 @@ Type: function
 Description: 
 - Param: _isOpenMode
 
-File: [client\Lobby\functions.sqf at line 403](../../../Src/client/Lobby/functions.sqf#L403)
+File: [client\Lobby\functions.sqf at line 422](../../../Src/client/Lobby/functions.sqf#L422)
 ## lobby_initLoadingScreen
 
 Type: function
@@ -663,7 +663,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\functions.sqf at line 442](../../../Src/client/Lobby/functions.sqf#L442)
+File: [client\Lobby\functions.sqf at line 461](../../../Src/client/Lobby/functions.sqf#L461)
 ## lobby_loadSettings
 
 Type: function
@@ -671,7 +671,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\functions.sqf at line 548](../../../Src/client/Lobby/functions.sqf#L548)
+File: [client\Lobby\functions.sqf at line 567](../../../Src/client/Lobby/functions.sqf#L567)
 ## lobby_onSendChatMessage
 
 Type: function
@@ -679,7 +679,7 @@ Type: function
 Description: 
 - Param: _text
 
-File: [client\Lobby\functions.sqf at line 556](../../../Src/client/Lobby/functions.sqf#L556)
+File: [client\Lobby\functions.sqf at line 575](../../../Src/client/Lobby/functions.sqf#L575)
 ## lobbyClose
 
 Type: function
@@ -687,7 +687,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\functions.sqf at line 574](../../../Src/client/Lobby/functions.sqf#L574)
+File: [client\Lobby\functions.sqf at line 593](../../../Src/client/Lobby/functions.sqf#L593)
 ## lobby_onChangeGameState
 
 Type: function
@@ -696,7 +696,7 @@ Description:
 - Param: _oldState
 - Param: _newState
 
-File: [client\Lobby\functions.sqf at line 604](../../../Src/client/Lobby/functions.sqf#L604)
+File: [client\Lobby\functions.sqf at line 623](../../../Src/client/Lobby/functions.sqf#L623)
 ## lobby_openSelectLateRole
 
 Type: function
@@ -704,7 +704,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\functions.sqf at line 637](../../../Src/client/Lobby/functions.sqf#L637)
+File: [client\Lobby\functions.sqf at line 656](../../../Src/client/Lobby/functions.sqf#L656)
 ## lobby_onSelectedLateRole
 
 Type: function
@@ -712,7 +712,7 @@ Type: function
 Description: 
 
 
-File: [client\Lobby\functions.sqf at line 726](../../../Src/client/Lobby/functions.sqf#L726)
+File: [client\Lobby\functions.sqf at line 745](../../../Src/client/Lobby/functions.sqf#L745)
 # lobbi_init.sqf
 
 ## DISABLE_NOT_USED_SETTINGS

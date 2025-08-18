@@ -20,6 +20,9 @@ class(ICampfireStruct) extends(ILightibleStruct)
 	func(onTriggerActivated)
 	{
 		objParams_1(_usr);
+		#ifdef SP_MODE
+			sp_checkWSim("burn");
+		#endif
 		
 		//призраки не горят...
 		if isTypeOf(_usr,MobGhost) exitWith {};
@@ -114,7 +117,10 @@ class(Campfire) extends(ICampfireStruct)
 	func(onUpdate)
 	{
 		updateParams();
-
+		#ifdef SP_MODE
+			sp_checkWSim("light");
+		#endif
+		
 		callSelf(handleIgniteArea);
 		modSelf(fuelLeft,-1);
 

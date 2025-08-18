@@ -675,7 +675,7 @@ class(GameObject) extends(ManagedObject)
 		desc:Получает расстояние до цели в метрах
 		type:get
 		lockoverride:1
-		in:GameObject:Объект-цель:Объект, до которого расчитывается расстояние
+		in:GameObject:Объект-цель:Объект, до которого рассчитывается расстояние
 		in:bool:2d расстояние:При включении данной опции расстояние будет вычислено только по двум координатам, т.е. высота не будет учитываться.
 		return:float:Расстояние до цели
 	" node_met
@@ -1485,12 +1485,15 @@ class(IDestructible) extends(GameObject)
 	//set new position with interpolation
 	func(changePosition)
 	{
-		objParams_1(_pos);
+		objParams_2(_pos,_interp);
 		if !callSelf(isInWorld) exitWith {};
-		
-		{
-			callFuncParams(_x,interpolate,"auto_trans_fall" arg this arg getSelf(pointer));
-		} foreach callSelfParams(getNearMobs,20);
+		if isNullVar(_interp) then {_interp = true};
+
+		if (_interp) then {
+			{
+				callFuncParams(_x,interpolate,"auto_trans_fall" arg this arg getSelf(pointer));
+			} foreach callSelfParams(getNearMobs,20);
+		};
 
 		callSelfParams(setPos__,_pos);
 	};

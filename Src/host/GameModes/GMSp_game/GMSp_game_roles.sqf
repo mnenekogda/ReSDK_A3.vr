@@ -38,7 +38,8 @@ class(GMSp_game_BasicRole) extends(BasicRole) // BasicRole - базовая ро
 	var(classWoman,"MobWoman");
 
 	// Если данное поле true, то после смерти персонажа игрока сразу вернет в лобби вместо возможности зайти в призрака
-	var(returnInLobbyAfterDead,true);
+	var(returnInLobbyAfterDead,false);
+	var(deadTimeout,999999);
 
 	getter_func(spawnLocation,null);
 
@@ -67,7 +68,7 @@ class(GMSp_game_BasicRole) extends(BasicRole) // BasicRole - базовая ро
 
 	// Массив базовых атрибутов:
 	// Сила (ST), Интеллект (IQ), Ловкость (DX), Здоровье (HT)
-	getter_func(getSkills,"st: 10; dx: 10; iq: 10; ht: 10");
+	getter_func(getSkills,"st: 13; dx: 11; iq: 9; ht: 9");
 
 	//Список дополнительных навыков
 	func(getOtherSkills) {

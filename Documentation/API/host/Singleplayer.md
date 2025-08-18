@@ -11,7 +11,7 @@ Replaced value:
 ```sqf
 0.5
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 88](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L88)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 93](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L93)
 ## SP_AI_TICKRATE_DIRECTION
 
 Type: constant
@@ -23,7 +23,7 @@ Replaced value:
 ```sqf
 0.05
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 89](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L89)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 94](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L94)
 ## SP_AI_TICKRATE_HEADTARGET
 
 Type: constant
@@ -35,7 +35,7 @@ Replaced value:
 ```sqf
 0.1
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 90](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L90)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 95](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L95)
 ## SP_AI_DATAFRAME_ANIMSTATE
 
 Type: constant
@@ -47,7 +47,7 @@ Replaced value:
 ```sqf
 0
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 92](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L92)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 97](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L97)
 ## SP_AI_DATAFRAME_POSITION
 
 Type: constant
@@ -59,7 +59,7 @@ Replaced value:
 ```sqf
 1
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 93](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L93)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 98](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L98)
 ## SP_AI_DATAFRAME_DIRECTION
 
 Type: constant
@@ -71,7 +71,7 @@ Replaced value:
 ```sqf
 2
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 94](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L94)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 99](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L99)
 ## SP_AI_DATAFRAME_HEADTARGET
 
 Type: constant
@@ -83,7 +83,7 @@ Replaced value:
 ```sqf
 3
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 95](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L95)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 100](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L100)
 ## SP_AI_DATAFRAME_SCRIPTEDSTATE
 
 Type: constant
@@ -95,7 +95,7 @@ Replaced value:
 ```sqf
 4
 ```
-File: [host\Singleplayer\singleplayer_ai.sqf at line 96](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L96)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 101](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L101)
 ## sp_ai_debug_curCaptureHandle
 
 Type: Variable
@@ -148,7 +148,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 71](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L71)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 76](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L76)
 ## sp_ai_debug_processCaptureSwitch
 
 Type: function
@@ -156,7 +156,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 78](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L78)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 83](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L83)
 ## sp_ai_debug_internal_handleUpdate
 
 Type: function
@@ -172,7 +172,7 @@ Description:
 - Param: _gDur
 - Param: _gBlndFact
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 103](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L103)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 108](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L108)
 ## sp_ai_debug_addScriptedState
 
 Type: function
@@ -180,7 +180,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 177](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L177)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 194](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L194)
 ## sp_ai_debug_isCapturing
 
 Type: function
@@ -188,7 +188,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 185](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L185)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 202](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L202)
 ## sp_ai_debug_suspendCapture
 
 Type: function
@@ -196,7 +196,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 189](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L189)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 206](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L206)
 ## sp_ai_playCapture
 
 Type: function
@@ -204,7 +204,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 200](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L200)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 221](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L221)
 ## sp_ai_internal_processPlayingStates
 
 Type: function
@@ -216,7 +216,24 @@ Description:
 - Param: _basePos
 - Param: _ctx
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 267](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L267)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 301](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L301)
+## sp_ai_animWait
+
+Type: function
+
+Description: 
+- Param: _codecondition
+- Param: _params (optional, default [])
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 441](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L441)
+## sp_ai_playAnimAwaiter
+
+Type: function
+
+Description: 
+- Param: _ctx
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 447](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L447)
 ## sp_ai_debug_playLastAnim
 
 Type: function
@@ -224,7 +241,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 369](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L369)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 457](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L457)
 ## sp_ai_debug_getPreviewPerson
 
 Type: function
@@ -232,7 +249,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 378](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L378)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 466](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L466)
 ## sp_ai_debug_createTestPerson
 
 Type: function
@@ -242,7 +259,7 @@ Description:
 - Param: _mtype (optional, default "Mob")
 - Param: _target (optional, default "CREATE_NEW")
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 385](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L385)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 473](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L473)
 ## sp_ai_playAnim
 
 Type: function
@@ -250,7 +267,15 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 397](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L397)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 485](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L485)
+## sp_ai_stopAnim
+
+Type: function
+
+Description: 
+- Param: _animHandle
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 531](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L531)
 ## sp_ai_createPerson
 
 Type: function
@@ -260,7 +285,7 @@ Description:
 - Param: _mtype (optional, default "Mob")
 - Param: _target (optional, default "CREATE_NEW")
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 443](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L443)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 536](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L536)
 ## sp_ai_createPersonEx
 
 Type: function
@@ -268,7 +293,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 463](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L463)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 556](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L556)
 ## sp_ai_deletePerson
 
 Type: function
@@ -276,15 +301,23 @@ Type: function
 Description: 
 - Param: _m
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 495](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L495)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 621](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L621)
 ## sp_ai_getMobObject
+
+Type: function
+
+Description: 
+- Param: _body
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 642](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L642)
+## sp_ai_getMobBody
 
 Type: function
 
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 516](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L516)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 648](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L648)
 ## sp_ai_commitMobPos
 
 Type: function
@@ -294,7 +327,7 @@ Description:
 - Param: _p
 - Param: _doApply (optional, default true)
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 522](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L522)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 652](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L652)
 ## sp_ai_moveItemToWorld
 
 Type: function
@@ -306,17 +339,17 @@ Description:
 - Param: _dir (optional, default random 360)
 - Param: _vecup (optional, default ['0', '0', '1'])
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 532](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L532)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 669](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L669)
 ## sp_ai_moveItemToMob
 
 Type: function
 
-Description: 
+Description: перемещение предмета из мира или между слотами
 - Param: _m
 - Param: _item
 - Param: _slot
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 563](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L563)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 701](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L701)
 ## sp_ai_setMobPos
 
 Type: function
@@ -326,7 +359,23 @@ Description:
 - Param: _reforpos
 - Param: _dir (optional, default null)
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 602](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L602)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 763](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L763)
+## sp_ai_isLoadedPos
+
+Type: function
+
+Description: 
+- Param: _mob
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 794](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L794)
+## sp_ai_waitForMobLoaded
+
+Type: function
+
+Description: 
+- Param: _mob
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 803](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L803)
 ## sp_ai_internal_onUpdate
 
 Type: function
@@ -334,7 +383,7 @@ Type: function
 Description: 
 - Param: _ps
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 632](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L632)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 810](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L810)
 ## sp_ai_playAnimsLooped
 
 Type: function
@@ -342,7 +391,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 696](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L696)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 875](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L875)
 ## sp_ai_internal_playAnimStateLoop
 
 Type: function
@@ -352,7 +401,7 @@ Description:
 - Param: _anm
 - Param: _ctxInt
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 714](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L714)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 897](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L897)
 ## sp_ai_setLookAtControl
 
 Type: function
@@ -361,17 +410,87 @@ Description:
 - Param: _mob
 - Param: _target
 
-File: [host\Singleplayer\singleplayer_ai.sqf at line 764](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L764)
+File: [host\Singleplayer\singleplayer_ai.sqf at line 970](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L970)
+## sp_ai_deleteAllPersons
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_ai.sqf at line 985](../../../Src/host/Singleplayer/singleplayer_ai.sqf#L985)
 # singleplayer_audio.sqf
 
+## sp_audio_list_soundbuff
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_audio.sqf at line 91](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L91)
+## sp_audio_distConstantSayTarget
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+null
+```
+File: [host\Singleplayer\singleplayer_audio.sqf at line 97](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L97)
+## sp_audio_setMusicVolume
+
+Type: function
+
+Description: 
+- Param: _vol
+- Param: _dur (optional, default 0)
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 15](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L15)
+## sp_audio_playMusic
+
+Type: function
+
+Description: 
+- Param: _name
+- Param: _looped (optional, default false)
+- Param: _toqueue (optional, default false)
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 20](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L20)
+## sp_audio_stopMusic
+
+Type: function
+
+Description: 
+- Param: _temp
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 33](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L33)
+## sp_audio_setMusicPause
+
+Type: function
+
+Description: 
+- Param: _mode
+- Param: _smooth (optional, default true)
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 38](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L38)
 ## sp_audio_sayPlayer
 
 Type: function
 
 Description: 
 - Param: _pathPost
+- Param: _vol (optional, default 1)
+- Param: _offset (optional, default 0)
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 15](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L15)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 44](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L44)
 ## sp_audio_waitForEndSound
 
 Type: function
@@ -379,7 +498,7 @@ Type: function
 Description: 
 - Param: _handle
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 25](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L25)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 56](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L56)
 ## sp_audio_sayPlayerList
 
 Type: function
@@ -387,7 +506,23 @@ Type: function
 Description: 
 - Param: _pathlist
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 32](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L32)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 65](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L65)
+## sp_audio_isSoundHandleDone
+
+Type: function
+
+Description: 
+- Param: _handle
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 79](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L79)
+## sp_audio_setDistConstant
+
+Type: function
+
+Description: 
+- Param: _dist
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 93](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L93)
 ## sp_audio_sayAtTarget
 
 Type: function
@@ -398,7 +533,17 @@ Description:
 - Param: _dist (optional, default 20)
 - Param: _startOffset (optional, default 0)
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 46](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L46)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 99](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L99)
+## sp_audio_playSound
+
+Type: function
+
+Description: 
+- Param: _pos
+- Param: _pathPost
+- Param: _dist (optional, default 20)
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 156](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L156)
 ## sp_audio_internal_resolveTarget
 
 Type: function
@@ -406,7 +551,7 @@ Type: function
 Description: 
 - Param: _target
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 62](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L62)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 164](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L164)
 ## sp_audio_startDialog
 
 Type: function
@@ -414,7 +559,24 @@ Type: function
 Description: 
 - Param: _dlg
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 89](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L89)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 191](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L191)
+## sp_audio_isDoneDialog
+
+Type: function
+
+Description: 
+- Param: _dlglst (optional, default [])
+- Param: _idx (optional, default 0)
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 219](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L219)
+## sp_audio_waitForEndDialog
+
+Type: function
+
+Description: 
+- Param: _dlgData
+
+File: [host\Singleplayer\singleplayer_audio.sqf at line 224](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L224)
 ## sp_audio_internal_procDialog
 
 Type: function
@@ -423,7 +585,7 @@ Description:
 - Param: _stateSeq
 - Param: _canCheckStartCond (optional, default true)
 
-File: [host\Singleplayer\singleplayer_audio.sqf at line 115](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L115)
+File: [host\Singleplayer\singleplayer_audio.sqf at line 232](../../../Src/host/Singleplayer/singleplayer_audio.sqf#L232)
 # singleplayer_camera.sqf
 
 ## sp_cam_cinematicCam
@@ -437,7 +599,55 @@ Initial value:
 ```sqf
 objNull
 ```
-File: [host\Singleplayer\singleplayer_camera.sqf at line 7](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L7)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 13](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L13)
+## sp_cam_internal_bufferCamData
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_camera.sqf at line 14](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L14)
+## sp_cam_interp_internal_mapCamData
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMapFromArray [...
+```
+File: [host\Singleplayer\singleplayer_camera.sqf at line 104](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L104)
+## sp_cam_interp_internal_orderCommands
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\singleplayer_camera.sqf at line 110](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L110)
+## sp_cam_internal_map_allUpdatesCancelToken
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMap
+```
+File: [host\Singleplayer\singleplayer_camera.sqf at line 240](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L240)
 ## sp_cam_createCinematicCam
 
 Type: function
@@ -445,7 +655,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 9](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L9)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 16](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L16)
 ## sp_cam_isCreated
 
 Type: function
@@ -453,7 +663,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 20](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L20)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 27](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L27)
 ## sp_cam_setCamPos
 
 Type: function
@@ -461,15 +671,16 @@ Type: function
 Description: 
 - Param: _pos
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 24](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L24)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 31](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L31)
 ## sp_cam_setCinematicCam
 
 Type: function
 
 Description: 
 - Param: _mode
+- Param: _recreate (optional, default true)
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 29](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L29)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 38](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L38)
 ## sp_cam_setTargetPos
 
 Type: function
@@ -477,7 +688,7 @@ Type: function
 Description: 
 - Param: _pos
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 39](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L39)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 54](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L54)
 ## sp_cam_resetTargetPos
 
 Type: function
@@ -485,7 +696,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 45](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L45)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 60](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L60)
 ## sp_cam_setFov
 
 Type: function
@@ -493,7 +704,44 @@ Type: function
 Description: 
 - Param: _fov
 
-File: [host\Singleplayer\singleplayer_camera.sqf at line 49](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L49)
+File: [host\Singleplayer\singleplayer_camera.sqf at line 64](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L64)
+## sp_cam_prepCamera
+
+Type: function
+
+Description: 
+- Param: _cpar
+
+File: [host\Singleplayer\singleplayer_camera.sqf at line 70](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L70)
+## sp_cam_interpTo
+
+Type: function
+
+Description: 
+- Param: _mode
+- Param: _to
+- Param: _time (optional, default 1)
+
+File: [host\Singleplayer\singleplayer_camera.sqf at line 114](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L114)
+## sp_cam_interpCam
+
+Type: function
+
+Description: 
+- Param: _mode
+- Param: _from
+- Param: _to
+- Param: _time (optional, default 1)
+
+File: [host\Singleplayer\singleplayer_camera.sqf at line 121](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L121)
+## sp_cam_stopAllInterp
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_camera.sqf at line 230](../../../Src/host/Singleplayer/singleplayer_camera.sqf#L230)
 # singleplayer_gameControl.sqf
 
 ## sp_gc_internal_map_playerInputHandlers
@@ -508,6 +756,18 @@ Initial value:
 createHashMap
 ```
 File: [host\Singleplayer\singleplayer_gameControl.sqf at line 6](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L6)
+## sp_gc_isPlayerInitialized
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 97](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L97)
 ## sp_internal_map_wsim
 
 Type: Variable
@@ -519,7 +779,187 @@ Initial value:
 ```sqf
 createHashMap
 ```
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 167](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L167)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 193](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L193)
+## sp_internal_map_wsimHandlers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMap
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 194](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L194)
+## sp_wsim_invokeNextAction
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 210](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L210)
+## sp_playerHp
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+100
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 245](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L245)
+## sp_playerLastDamagedTime
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 246](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L246)
+## sp_whitelistClickItems
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 293](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L293)
+## sp_blacklistClickItems
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 294](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L294)
+## sp_allowebVerbs
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[] //managed
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 298](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L298)
+## sp_defaultAllowedVerbs
+
+Type: Variable
+
+Description: managed
+
+
+Initial value:
+```sqf
+["description","mainact","pickup"] //readonly
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 299](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L299)
+## sp_canRemoveCloth
+
+Type: Variable
+
+Description: readonly
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 301](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L301)
+## sp_canResist
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 303](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L303)
+## sp_canExamine
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 304](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L304)
+## sp_defaultHandlers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMapFromArray [...
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 306](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L306)
+## sp_const_defaultHandlersCopy
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+array_copy(sp_defaultHandlers)
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 321](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L321)
+## sp_const_list_stdPlayerHandlers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 323](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L323)
+## sp_internal_torchhandler_thread
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+threadNull
+```
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 346](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L346)
 ## sp_gc_handlePlayerInput
 
 Type: function
@@ -588,7 +1028,7 @@ Type: function
 Description: used for on assigned handler
 - Param: _mob
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 98](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L98)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 100](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L100)
 ## sp_setPlayerPos
 
 Type: function
@@ -597,7 +1037,15 @@ Description: устанавливает позицию игрока
 - Param: _reforpos
 - Param: _dir (optional, default null)
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 112](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L112)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 134](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L134)
+## sp_isPlayerPosPrepared
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 177](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L177)
 ## sp_getObject
 
 Type: function
@@ -605,7 +1053,7 @@ Type: function
 Description: получает объект по глобальной ссылке
 - Param: _gref
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 156](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L156)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 182](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L182)
 ## sp_getPoint
 
 Type: function
@@ -613,7 +1061,7 @@ Type: function
 Description: получает точку спавна
 - Param: _pointName
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 162](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L162)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 188](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L188)
 ## sp_wsimIsActive
 
 Type: function
@@ -621,7 +1069,34 @@ Type: function
 Description: use wsim sp_checkWSim for disable world simulation
 
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 182](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L182)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 213](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L213)
+## sp_addWsimHandler
+
+Type: function
+
+Description: 
+- Param: _wsimMode
+- Param: _func
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 221](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L221)
+## sp_removeWsimHandler
+
+Type: function
+
+Description: 
+- Param: _wsimMode
+- Param: _handle
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 225](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L225)
+## sp_internal_wsimHandleAction
+
+Type: function
+
+Description: 
+- Param: _wsim
+- Param: _params
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 230](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L230)
 ## sp_wsimSetActive
 
 Type: function
@@ -630,7 +1105,106 @@ Description:
 - Param: _handler
 - Param: _mode
 
-File: [host\Singleplayer\singleplayer_gameControl.sqf at line 186](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L186)
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 238](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L238)
+## sp_internal_handleTargetThrowingContact
+
+Type: function
+
+Description: 
+- Param: _bulletMesh
+- Param: _targ
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 247](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L247)
+## sp_applyPlayerDamage
+
+Type: function
+
+Description: 
+- Param: _val
+- Param: _isSet (optional, default false)
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 255](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L255)
+## sp_delegateDiePlayer
+
+Type: function
+
+Description: 
+- Param: _code
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 269](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L269)
+## sp_setEventDiePlayer
+
+Type: function
+
+Description: 
+- Param: _code
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 270](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L270)
+## sp_callEventDiePlayer
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 274](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L274)
+## sp_clearPlayerInventory
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 278](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L278)
+## sp_delegateCanClickItem
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 379](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L379)
+## sp_setLockPlayerHandler
+
+Type: function
+
+Description: 
+- Param: _option
+- Param: _value
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 332](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L332)
+## sp_internal_torchHandler
+
+Type: function
+
+Description: 
+- Param: _t
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 347](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L347)
+## sp_initializeDefaultPlayerHandlers
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 364](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L364)
+## sp_copyPlayerInventoryTo
+
+Type: function
+
+Description: 
+- Param: _target
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 515](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L515)
+## sp_setPlayerSprintAllowed
+
+Type: function
+
+Description: sprint control
+- Param: _mode
+
+File: [host\Singleplayer\singleplayer_gameControl.sqf at line 537](../../../Src/host/Singleplayer/singleplayer_gameControl.sqf#L537)
 # singleplayer_init.sqf
 
 ## sp_storage
@@ -644,7 +1218,7 @@ Initial value:
 ```sqf
 createHashMap
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 20](../../../Src/host/Singleplayer/singleplayer_init.sqf#L20)
+File: [host\Singleplayer\singleplayer_init.sqf at line 21](../../../Src/host/Singleplayer/singleplayer_init.sqf#L21)
 ## sp_debug
 
 Type: Variable
@@ -654,9 +1228,9 @@ Description:
 
 Initial value:
 ```sqf
-true
+false
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 22](../../../Src/host/Singleplayer/singleplayer_init.sqf#L22)
+File: [host\Singleplayer\singleplayer_init.sqf at line 23](../../../Src/host/Singleplayer/singleplayer_init.sqf#L23)
 ## sp_debug_viewOnReload
 
 Type: Variable
@@ -668,7 +1242,7 @@ Initial value:
 ```sqf
 true
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 23](../../../Src/host/Singleplayer/singleplayer_init.sqf#L23)
+File: [host\Singleplayer\singleplayer_init.sqf at line 24](../../../Src/host/Singleplayer/singleplayer_init.sqf#L24)
 ## sp_debug_skipAudio
 
 Type: Variable
@@ -680,7 +1254,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 24](../../../Src/host/Singleplayer/singleplayer_init.sqf#L24)
+File: [host\Singleplayer\singleplayer_init.sqf at line 25](../../../Src/host/Singleplayer/singleplayer_init.sqf#L25)
 ## sp_debug_doNotHideDebugObjects
 
 Type: Variable
@@ -692,8 +1266,8 @@ Initial value:
 ```sqf
 false//показ спавнпоинтов
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 25](../../../Src/host/Singleplayer/singleplayer_init.sqf#L25)
-## sp_ai_debug_testmobs
+File: [host\Singleplayer\singleplayer_init.sqf at line 26](../../../Src/host/Singleplayer/singleplayer_init.sqf#L26)
+## sp_debug_fastThreadSleep
 
 Type: Variable
 
@@ -702,9 +1276,21 @@ Description: показ спавнпоинтов
 
 Initial value:
 ```sqf
+false
+```
+File: [host\Singleplayer\singleplayer_init.sqf at line 28](../../../Src/host/Singleplayer/singleplayer_init.sqf#L28)
+## sp_ai_debug_testmobs
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
 createHashMap
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 27](../../../Src/host/Singleplayer/singleplayer_init.sqf#L27)
+File: [host\Singleplayer\singleplayer_init.sqf at line 30](../../../Src/host/Singleplayer/singleplayer_init.sqf#L30)
 ## sp_ai_mobs
 
 Type: Variable
@@ -716,7 +1302,7 @@ Initial value:
 ```sqf
 createHashMap
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 28](../../../Src/host/Singleplayer/singleplayer_init.sqf#L28)
+File: [host\Singleplayer\singleplayer_init.sqf at line 31](../../../Src/host/Singleplayer/singleplayer_init.sqf#L31)
 ## sp_ai_handleFarMobs
 
 Type: Variable
@@ -728,7 +1314,7 @@ Initial value:
 ```sqf
 startUpdate(...
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 29](../../../Src/host/Singleplayer/singleplayer_init.sqf#L29)
+File: [host\Singleplayer\singleplayer_init.sqf at line 32](../../../Src/host/Singleplayer/singleplayer_init.sqf#L32)
 ## sp_ai_debug_curCaptureBasePos
 
 Type: Variable
@@ -740,7 +1326,7 @@ Initial value:
 ```sqf
 vec3(0,0,0)
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 30](../../../Src/host/Singleplayer/singleplayer_init.sqf#L30)
+File: [host\Singleplayer\singleplayer_init.sqf at line 33](../../../Src/host/Singleplayer/singleplayer_init.sqf#L33)
 ## sp_playerCanMove
 
 Type: Variable
@@ -752,7 +1338,7 @@ Initial value:
 ```sqf
 true
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 32](../../../Src/host/Singleplayer/singleplayer_init.sqf#L32)
+File: [host\Singleplayer\singleplayer_init.sqf at line 35](../../../Src/host/Singleplayer/singleplayer_init.sqf#L35)
 ## sp_gc_handleUpdateTriggers
 
 Type: Variable
@@ -764,7 +1350,7 @@ Initial value:
 ```sqf
 -1
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 98](../../../Src/host/Singleplayer/singleplayer_init.sqf#L98)
+File: [host\Singleplayer\singleplayer_init.sqf at line 101](../../../Src/host/Singleplayer/singleplayer_init.sqf#L101)
 ## sp_gc_internal_listTriggers
 
 Type: Variable
@@ -776,7 +1362,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 99](../../../Src/host/Singleplayer/singleplayer_init.sqf#L99)
+File: [host\Singleplayer\singleplayer_init.sqf at line 102](../../../Src/host/Singleplayer/singleplayer_init.sqf#L102)
 ## sp_gc_internal_listTriggersZones
 
 Type: Variable
@@ -788,7 +1374,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 100](../../../Src/host/Singleplayer/singleplayer_init.sqf#L100)
+File: [host\Singleplayer\singleplayer_init.sqf at line 103](../../../Src/host/Singleplayer/singleplayer_init.sqf#L103)
 ## sp_gc_internal_activeTriggers
 
 Type: Variable
@@ -800,7 +1386,19 @@ Initial value:
 ```sqf
 createhashMap //key name, value gameobject
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 101](../../../Src/host/Singleplayer/singleplayer_init.sqf#L101)
+File: [host\Singleplayer\singleplayer_init.sqf at line 104](../../../Src/host/Singleplayer/singleplayer_init.sqf#L104)
+## sp_threadNull
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+threadNull
+```
+File: [host\Singleplayer\singleplayer_init.sqf at line 218](../../../Src/host/Singleplayer/singleplayer_init.sqf#L218)
 ## sp_internal_threads
 
 Type: Variable
@@ -812,7 +1410,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_init.sqf at line 203](../../../Src/host/Singleplayer/singleplayer_init.sqf#L203)
+File: [host\Singleplayer\singleplayer_init.sqf at line 227](../../../Src/host/Singleplayer/singleplayer_init.sqf#L227)
 ## sp_storageGet
 
 Type: function
@@ -821,7 +1419,7 @@ Description:
 - Param: _name
 - Param: _def
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 34](../../../Src/host/Singleplayer/singleplayer_init.sqf#L34)
+File: [host\Singleplayer\singleplayer_init.sqf at line 37](../../../Src/host/Singleplayer/singleplayer_init.sqf#L37)
 ## sp_storageUpdate
 
 Type: function
@@ -831,7 +1429,7 @@ Description:
 - Param: _valCode
 - Param: _defval
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 43](../../../Src/host/Singleplayer/singleplayer_init.sqf#L43)
+File: [host\Singleplayer\singleplayer_init.sqf at line 46](../../../Src/host/Singleplayer/singleplayer_init.sqf#L46)
 ## sp_storageSet
 
 Type: function
@@ -840,7 +1438,7 @@ Description:
 - Param: _name
 - Param: _defval
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 51](../../../Src/host/Singleplayer/singleplayer_init.sqf#L51)
+File: [host\Singleplayer\singleplayer_init.sqf at line 54](../../../Src/host/Singleplayer/singleplayer_init.sqf#L54)
 ## sp_internal_reloadScenario
 
 Type: function
@@ -848,7 +1446,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 56](../../../Src/host/Singleplayer/singleplayer_init.sqf#L56)
+File: [host\Singleplayer\singleplayer_init.sqf at line 59](../../../Src/host/Singleplayer/singleplayer_init.sqf#L59)
 ## sp_initMainModule
 
 Type: function
@@ -856,7 +1454,7 @@ Type: function
 Description: key name, value gameobject
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 103](../../../Src/host/Singleplayer/singleplayer_init.sqf#L103)
+File: [host\Singleplayer\singleplayer_init.sqf at line 106](../../../Src/host/Singleplayer/singleplayer_init.sqf#L106)
 ## sp_getTriggerByName
 
 Type: function
@@ -864,7 +1462,7 @@ Type: function
 Description: 
 - Param: _searchName
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 151](../../../Src/host/Singleplayer/singleplayer_init.sqf#L151)
+File: [host\Singleplayer\singleplayer_init.sqf at line 173](../../../Src/host/Singleplayer/singleplayer_init.sqf#L173)
 ## sp_getActor
 
 Type: function
@@ -872,7 +1470,7 @@ Type: function
 Description: get actor
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 165](../../../Src/host/Singleplayer/singleplayer_init.sqf#L165)
+File: [host\Singleplayer\singleplayer_init.sqf at line 187](../../../Src/host/Singleplayer/singleplayer_init.sqf#L187)
 ## sp_createTrigger
 
 Type: function
@@ -880,7 +1478,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 176](../../../Src/host/Singleplayer/singleplayer_init.sqf#L176)
+File: [host\Singleplayer\singleplayer_init.sqf at line 198](../../../Src/host/Singleplayer/singleplayer_init.sqf#L198)
 ## sp_threadStart
 
 Type: function
@@ -889,7 +1487,7 @@ Description:
 - Param: _thdCode
 - Param: _args (optional, default [])
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 205](../../../Src/host/Singleplayer/singleplayer_init.sqf#L205)
+File: [host\Singleplayer\singleplayer_init.sqf at line 229](../../../Src/host/Singleplayer/singleplayer_init.sqf#L229)
 ## sp_threadStop
 
 Type: function
@@ -897,7 +1495,15 @@ Type: function
 Description: 
 - Param: _thd
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 215](../../../Src/host/Singleplayer/singleplayer_init.sqf#L215)
+File: [host\Singleplayer\singleplayer_init.sqf at line 239](../../../Src/host/Singleplayer/singleplayer_init.sqf#L239)
+## sp_threadStopAll
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_init.sqf at line 245](../../../Src/host/Singleplayer/singleplayer_init.sqf#L245)
 ## sp_threadCriticalSection
 
 Type: function
@@ -905,7 +1511,7 @@ Type: function
 Description: 
 - Param: _code
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 221](../../../Src/host/Singleplayer/singleplayer_init.sqf#L221)
+File: [host\Singleplayer\singleplayer_init.sqf at line 254](../../../Src/host/Singleplayer/singleplayer_init.sqf#L254)
 ## sp_threadPause
 
 Type: function
@@ -913,7 +1519,7 @@ Type: function
 Description: 
 - Param: _time
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 226](../../../Src/host/Singleplayer/singleplayer_init.sqf#L226)
+File: [host\Singleplayer\singleplayer_init.sqf at line 259](../../../Src/host/Singleplayer/singleplayer_init.sqf#L259)
 ## sp_threadWait
 
 Type: function
@@ -921,7 +1527,7 @@ Type: function
 Description: called only when result is true
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 232](../../../Src/host/Singleplayer/singleplayer_init.sqf#L232)
+File: [host\Singleplayer\singleplayer_init.sqf at line 266](../../../Src/host/Singleplayer/singleplayer_init.sqf#L266)
 ## sp_threadWaitForEnd
 
 Type: function
@@ -929,7 +1535,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_init.sqf at line 236](../../../Src/host/Singleplayer/singleplayer_init.sqf#L236)
+File: [host\Singleplayer\singleplayer_init.sqf at line 270](../../../Src/host/Singleplayer/singleplayer_init.sqf#L270)
 # singleplayer_scenarioFramework.sqf
 
 ## sp_map_scenario
@@ -991,7 +1597,7 @@ Initial value:
 ```sqf
 createHashMap
 ```
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 41](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L41)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 45](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L45)
 ## sp_loadScenario
 
 Type: function
@@ -1017,7 +1623,7 @@ Description: Добавление сцены. Если в мире есть тр
 - Param: _name
 - Param: _code
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 43](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L43)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 47](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L47)
 ## sp_addTriggerEnter
 
 Type: function
@@ -1026,7 +1632,7 @@ Description: triggerzone works
 - Param: _name
 - Param: _code
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 49](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L49)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 53](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L53)
 ## sp_addTriggerExit
 
 Type: function
@@ -1035,7 +1641,7 @@ Description:
 - Param: _name
 - Param: _code
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 54](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L54)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 58](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L58)
 ## sp_callTriggerEvent
 
 Type: function
@@ -1044,7 +1650,7 @@ Description:
 - Param: _name
 - Param: _isEnter (optional, default true)
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 59](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L59)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 63](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L63)
 ## sp_preloadScenarioEnvironment
 
 Type: function
@@ -1052,7 +1658,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 67](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L67)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 71](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L71)
 ## setNight
 
 Type: function
@@ -1060,7 +1666,23 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 70](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L70)
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 76](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L76)
+## sp_cleanupSceneData
+
+Type: function
+
+Description: cleanup all scene data
+
+
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 115](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L115)
+## sp_onChapterDone
+
+Type: function
+
+Description: 
+- Param: _chapId
+
+File: [host\Singleplayer\singleplayer_scenarioFramework.sqf at line 129](../../../Src/host/Singleplayer/singleplayer_scenarioFramework.sqf#L129)
 # singleplayer_view.sqf
 
 ## sp_gui_taskWidgets
@@ -1074,7 +1696,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 6](../../../Src/host/Singleplayer/singleplayer_view.sqf#L6)
+File: [host\Singleplayer\singleplayer_view.sqf at line 13](../../../Src/host/Singleplayer/singleplayer_view.sqf#L13)
 ## sp_gui_notificationWidgets
 
 Type: Variable
@@ -1086,7 +1708,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 7](../../../Src/host/Singleplayer/singleplayer_view.sqf#L7)
+File: [host\Singleplayer\singleplayer_view.sqf at line 14](../../../Src/host/Singleplayer/singleplayer_view.sqf#L14)
 ## sp_gui_borders
 
 Type: Variable
@@ -1098,7 +1720,7 @@ Initial value:
 ```sqf
 []
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 8](../../../Src/host/Singleplayer/singleplayer_view.sqf#L8)
+File: [host\Singleplayer\singleplayer_view.sqf at line 15](../../../Src/host/Singleplayer/singleplayer_view.sqf#L15)
 ## sp_gui_borderSize
 
 Type: Variable
@@ -1110,7 +1732,7 @@ Initial value:
 ```sqf
 10
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 10](../../../Src/host/Singleplayer/singleplayer_view.sqf#L10)
+File: [host\Singleplayer\singleplayer_view.sqf at line 17](../../../Src/host/Singleplayer/singleplayer_view.sqf#L17)
 ## sp_gui_notificationSizeW
 
 Type: Variable
@@ -1122,7 +1744,7 @@ Initial value:
 ```sqf
 40
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 11](../../../Src/host/Singleplayer/singleplayer_view.sqf#L11)
+File: [host\Singleplayer\singleplayer_view.sqf at line 18](../../../Src/host/Singleplayer/singleplayer_view.sqf#L18)
 ## sp_gui_notificationSizeH
 
 Type: Variable
@@ -1134,7 +1756,7 @@ Initial value:
 ```sqf
 70
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 12](../../../Src/host/Singleplayer/singleplayer_view.sqf#L12)
+File: [host\Singleplayer\singleplayer_view.sqf at line 19](../../../Src/host/Singleplayer/singleplayer_view.sqf#L19)
 ## sp_gui_taskMessageWidth
 
 Type: Variable
@@ -1146,7 +1768,7 @@ Initial value:
 ```sqf
 25
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 14](../../../Src/host/Singleplayer/singleplayer_view.sqf#L14)
+File: [host\Singleplayer\singleplayer_view.sqf at line 21](../../../Src/host/Singleplayer/singleplayer_view.sqf#L21)
 ## sp_internal_lastNotification
 
 Type: Variable
@@ -1158,7 +1780,43 @@ Initial value:
 ```sqf
 ""
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 16](../../../Src/host/Singleplayer/singleplayer_view.sqf#L16)
+File: [host\Singleplayer\singleplayer_view.sqf at line 23](../../../Src/host/Singleplayer/singleplayer_view.sqf#L23)
+## sp_gui_pphndl_chromabb
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+ppEffectCreate ["ChromAberration", 10000]
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 28](../../../Src/host/Singleplayer/singleplayer_view.sqf#L28)
+## sp_gui_pphndl_clrinvers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+ppEffectCreate ["ColorInversion", 10001]
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 32](../../../Src/host/Singleplayer/singleplayer_view.sqf#L32)
+## sp_gui_internal_handlePPUpdate
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+-1
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 37](../../../Src/host/Singleplayer/singleplayer_view.sqf#L37)
 ## sp_isGUIInit
 
 Type: Variable
@@ -1170,7 +1828,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 18](../../../Src/host/Singleplayer/singleplayer_view.sqf#L18)
+File: [host\Singleplayer\singleplayer_view.sqf at line 39](../../../Src/host/Singleplayer/singleplayer_view.sqf#L39)
 ## sp_int_taskTextOrigPos
 
 Type: Variable
@@ -1182,7 +1840,7 @@ Initial value:
 ```sqf
 vec4(0,0,0,0)
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 90](../../../Src/host/Singleplayer/singleplayer_view.sqf#L90)
+File: [host\Singleplayer\singleplayer_view.sqf at line 120](../../../Src/host/Singleplayer/singleplayer_view.sqf#L120)
 ## sp_int_nextTaskTextParams
 
 Type: Variable
@@ -1194,7 +1852,75 @@ Initial value:
 ```sqf
 null
 ```
-File: [host\Singleplayer\singleplayer_view.sqf at line 114](../../../Src/host/Singleplayer/singleplayer_view.sqf#L114)
+File: [host\Singleplayer\singleplayer_view.sqf at line 145](../../../Src/host/Singleplayer/singleplayer_view.sqf#L145)
+## sp_int_pulseNotificationHandle
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 222](../../../Src/host/Singleplayer/singleplayer_view.sqf#L222)
+## sp_allInitializedWidgetHighlightTokens
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 258](../../../Src/host/Singleplayer/singleplayer_view.sqf#L258)
+## sp_gui_internal_cinematicMode
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 437](../../../Src/host/Singleplayer/singleplayer_view.sqf#L437)
+## sp_gui_internal_cinematicModeWidgets
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 438](../../../Src/host/Singleplayer/singleplayer_view.sqf#L438)
+## sp_gui_inventoryVisibleHandlers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 499](../../../Src/host/Singleplayer/singleplayer_view.sqf#L499)
+## sp_gui_internal_const_baseFadeInvVis
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0.6
+```
+File: [host\Singleplayer\singleplayer_view.sqf at line 522](../../../Src/host/Singleplayer/singleplayer_view.sqf#L522)
 ## sp_initGUI
 
 Type: function
@@ -1202,7 +1928,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 19](../../../Src/host/Singleplayer/singleplayer_view.sqf#L19)
+File: [host\Singleplayer\singleplayer_view.sqf at line 40](../../../Src/host/Singleplayer/singleplayer_view.sqf#L40)
 ## sp_view_setBordersVisible
 
 Type: function
@@ -1211,7 +1937,7 @@ Description:
 - Param: _mode
 - Param: _time (optional, default 0)
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 77](../../../Src/host/Singleplayer/singleplayer_view.sqf#L77)
+File: [host\Singleplayer\singleplayer_view.sqf at line 107](../../../Src/host/Singleplayer/singleplayer_view.sqf#L107)
 ## sp_int_getTaskCtgWidget
 
 Type: function
@@ -1219,7 +1945,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 92](../../../Src/host/Singleplayer/singleplayer_view.sqf#L92)
+File: [host\Singleplayer\singleplayer_view.sqf at line 122](../../../Src/host/Singleplayer/singleplayer_view.sqf#L122)
 ## sp_int_getTaskBackgroundWidget
 
 Type: function
@@ -1227,7 +1953,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 93](../../../Src/host/Singleplayer/singleplayer_view.sqf#L93)
+File: [host\Singleplayer\singleplayer_view.sqf at line 123](../../../Src/host/Singleplayer/singleplayer_view.sqf#L123)
 ## sp_int_getTaskTextWidget
 
 Type: function
@@ -1235,7 +1961,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 94](../../../Src/host/Singleplayer/singleplayer_view.sqf#L94)
+File: [host\Singleplayer\singleplayer_view.sqf at line 124](../../../Src/host/Singleplayer/singleplayer_view.sqf#L124)
 ## sp_int_getNotificationWidgetCtg
 
 Type: function
@@ -1243,7 +1969,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 96](../../../Src/host/Singleplayer/singleplayer_view.sqf#L96)
+File: [host\Singleplayer\singleplayer_view.sqf at line 126](../../../Src/host/Singleplayer/singleplayer_view.sqf#L126)
 ## sp_int_getNotificationWidget
 
 Type: function
@@ -1251,7 +1977,15 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 97](../../../Src/host/Singleplayer/singleplayer_view.sqf#L97)
+File: [host\Singleplayer\singleplayer_view.sqf at line 127](../../../Src/host/Singleplayer/singleplayer_view.sqf#L127)
+## sp_int_getNotificationBackPulseWidget
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 128](../../../Src/host/Singleplayer/singleplayer_view.sqf#L128)
 ## sp_setTaskMessage
 
 Type: function
@@ -1260,7 +1994,7 @@ Description:
 - Param: _header
 - Param: _desc (optional, default "")
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 99](../../../Src/host/Singleplayer/singleplayer_view.sqf#L99)
+File: [host\Singleplayer\singleplayer_view.sqf at line 130](../../../Src/host/Singleplayer/singleplayer_view.sqf#L130)
 ## sp_setTaskMessageEff
 
 Type: function
@@ -1269,7 +2003,7 @@ Description:
 - Param: _header
 - Param: _desc (optional, default "")
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 116](../../../Src/host/Singleplayer/singleplayer_view.sqf#L116)
+File: [host\Singleplayer\singleplayer_view.sqf at line 147](../../../Src/host/Singleplayer/singleplayer_view.sqf#L147)
 ## sp_setHideTaskMessageCtg
 
 Type: function
@@ -1277,7 +2011,7 @@ Type: function
 Description: 
 - Param: _mode
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 122](../../../Src/host/Singleplayer/singleplayer_view.sqf#L122)
+File: [host\Singleplayer\singleplayer_view.sqf at line 153](../../../Src/host/Singleplayer/singleplayer_view.sqf#L153)
 ## sp_isVisibleTaskMesssageCtg
 
 Type: function
@@ -1285,7 +2019,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 133](../../../Src/host/Singleplayer/singleplayer_view.sqf#L133)
+File: [host\Singleplayer\singleplayer_view.sqf at line 164](../../../Src/host/Singleplayer/singleplayer_view.sqf#L164)
 ## sp_setNotification
 
 Type: function
@@ -1293,7 +2027,15 @@ Type: function
 Description: notification system
 - Param: _text
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 138](../../../Src/host/Singleplayer/singleplayer_view.sqf#L138)
+File: [host\Singleplayer\singleplayer_view.sqf at line 169](../../../Src/host/Singleplayer/singleplayer_view.sqf#L169)
+## sp_int_pulseNotification
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 214](../../../Src/host/Singleplayer/singleplayer_view.sqf#L214)
 ## sp_setNotificationVisible
 
 Type: function
@@ -1302,7 +2044,7 @@ Description:
 - Param: _mode
 - Param: _notifHandler (optional, default "")
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 169](../../../Src/host/Singleplayer/singleplayer_view.sqf#L169)
+File: [host\Singleplayer\singleplayer_view.sqf at line 241](../../../Src/host/Singleplayer/singleplayer_view.sqf#L241)
 ## sp_isVisibleNotification
 
 Type: function
@@ -1310,24 +2052,31 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 182](../../../Src/host/Singleplayer/singleplayer_view.sqf#L182)
+File: [host\Singleplayer\singleplayer_view.sqf at line 254](../../../Src/host/Singleplayer/singleplayer_view.sqf#L254)
+## sp_cleanupWidgetHighlightTokens
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 260](../../../Src/host/Singleplayer/singleplayer_view.sqf#L260)
 ## sp_createWidgetHighlight
 
 Type: function
 
 Description: 
-- Param: _w
-- Param: _sizePx (optional, default 0.01)
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 187](../../../Src/host/Singleplayer/singleplayer_view.sqf#L187)
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 267](../../../Src/host/Singleplayer/singleplayer_view.sqf#L267)
 ## sp_view_setPlayerHudVisible
 
 Type: function
 
 Description: включение или отключение отображения худа. для черного экрана используем setBlackScreenGUI
-- Param: _mode (optional, default "inv+right+up+left+stats+cursor")
+- Param: _mode (optional, default "inv+right+up+left+stats+cursor+stam+chat")
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 282](../../../Src/host/Singleplayer/singleplayer_view.sqf#L282)
+File: [host\Singleplayer\singleplayer_view.sqf at line 374](../../../Src/host/Singleplayer/singleplayer_view.sqf#L374)
 ## sp_view_setPlayerHeadVisible
 
 Type: function
@@ -1335,10 +2084,771 @@ Type: function
 Description: установить видимость головы игрока
 - Param: _mode
 
-File: [host\Singleplayer\singleplayer_view.sqf at line 296](../../../Src/host/Singleplayer/singleplayer_view.sqf#L296)
+File: [host\Singleplayer\singleplayer_view.sqf at line 396](../../../Src/host/Singleplayer/singleplayer_view.sqf#L396)
+## sp_gui_setPlayerColorInversion
+
+Type: function
+
+Description: 
+- Param: _r
+- Param: _g
+- Param: _b
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 406](../../../Src/host/Singleplayer/singleplayer_view.sqf#L406)
+## sp_gui_setPlayerAbberation
+
+Type: function
+
+Description: 
+- Param: _abberval
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 413](../../../Src/host/Singleplayer/singleplayer_view.sqf#L413)
+## sp_gui_internal_onUpdatePPGUI
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 420](../../../Src/host/Singleplayer/singleplayer_view.sqf#L420)
+## sp_gui_setCinematicMode
+
+Type: function
+
+Description: 
+- Param: _mode
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 439](../../../Src/host/Singleplayer/singleplayer_view.sqf#L439)
+## sp_gui_setBlackScreenGUI
+
+Type: function
+
+Description: 
+- Param: _mode
+- Param: _time (optional, default 1)
+- Param: _threadWait (optional, default true)
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 491](../../../Src/host/Singleplayer/singleplayer_view.sqf#L491)
+## sp_gui_resetInventoryVisibleHandlers
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 500](../../../Src/host/Singleplayer/singleplayer_view.sqf#L500)
+## sp_gui_setInventoryVisibleHandler
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 517](../../../Src/host/Singleplayer/singleplayer_view.sqf#L517)
+## sp_gui_syncInventoryVisible
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\singleplayer_view.sqf at line 524](../../../Src/host/Singleplayer/singleplayer_view.sqf#L524)
+# begin.sqf
+
+## begin_debug_showLogo
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 10](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L10)
+## begin_logoshown
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 12](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L12)
+## begin_debug_fastTests
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+sp_debug
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 299](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L299)
+## begin_internal_hwcut_list
+
+Type: Variable
+
+Description: говорящие ребята и все из первого сегмента
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 302](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L302)
+## begin_internal_NAInvData
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 304](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L304)
+## begin_handleKeyDown
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+-1
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 309](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L309)
+## begin_internal_list_hwcut
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 520](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L520)
+## begin_attackStarted
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 641](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L641)
+## begin_canStartAttack
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 642](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L642)
+## begin_startattack_lockzone_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 719](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L719)
+## begin_prepgate_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 731](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L731)
+## begin_gate_list_deadcivils
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 732](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L732)
+## begin_gate_list_attackers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 733](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L733)
+## begin_startattack_activated
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 795](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L795)
+## begin_run1_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1085](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1085)
+## begin_enterrun2_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1127](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1127)
+## begin_run3_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1212](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1212)
+## begin_run3_dialogHandle
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+null
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1213](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1213)
+## begin_enterrun4
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1226](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1226)
+## begin_run4_processenemy
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1227](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1227)
+## begin_internal_list_cutscene1
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1278](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1278)
+## begin_run4enterercutscene_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1279](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1279)
+## begin_act_readyToDown
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1280](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1280)
+## begin_internal_collisionObjects
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1356](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1356)
+## begin_run5_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1374](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1374)
+## begin_playerInVent
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1375](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1375)
+## begin_cutscene1_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1409](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1409)
+## begin_run6_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1454](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1454)
+## begin_tokeeper3_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1485](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1485)
+## begin_internal_data_keeper3readytoNextDialog
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1486](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1486)
+## begin_data_behinddoorEnd
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1625](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1625)
+## begin_cutscene2_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1637](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1637)
+## begin_prechase_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1658](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1658)
+## begin_chase_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1685](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1685)
+## begin_chaseend_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1743](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1743)
+## begin_finalizer_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1786](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1786)
+## begin_func_startTalkerAnimations
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\begin.sqf at line 465](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L465)
+## begin_internal_setNearCollisionMode
+
+Type: function
+
+Description: 
+- Param: _mode
+- Param: _dist (optional, default 10)
+
+File: [host\Singleplayer\Scenarios\begin.sqf at line 1357](../../../Src/host/Singleplayer/Scenarios/begin.sqf#L1357)
+# begin_playerSetup.sqf
+
+## begin_playerSetup_listCamPos
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 6](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L6)
+## begin_playerSetup_camPosPreload
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+["VR",[3606.74,3989.36,19.0532],90.4817,0.87,[-20.6313,0],0,0,720,0,0,1,0,1]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 13](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L13)
+## begin_playerSetup_selectFaceListCamPos
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 15](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L15)
+## begin_playerSetup_preparedNamePos
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+["VR",[3606.11,3990.66,17.6511],300.021,0.42,[-31.6697,10.5583],0,0,8.47788e-05,0,1,1,0,1]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 22](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L22)
+## begin_playerSetup_startGameCam
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+["VR",[3606.11,3990.66,17.6511],285.767,0.11,[-35.3376,10.5583],0,0,8.47788e-05,0,1,1,0,1]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 24](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L24)
+## begin_playerSetup_mainStage
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 26](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L26)
+## begin_playerSetup_isProgressRotatePlayer
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 27](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L27)
+## begin_playerSetup_descriptions
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 29](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L29)
+## begin_playerSetup_curIndex
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 55](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L55)
+## begin_playerSetupObjects
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 56](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L56)
+## begin_playerSetup_isLoading
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 82](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L82)
+## begin_playerSetup_widgets
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[widgetNull,widgetNull]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 118](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L118)
+## begin_playerSetup_zones
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 119](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L119)
+## begin_playerSetup_getCurMob
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 58](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L58)
+## begin_playerSetup_syncCamPos
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 62](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L62)
+## begin_playerSetup_syncUIRender
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 83](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L83)
+## begin_playerSetup_setHeaderText
+
+Type: function
+
+Description: 
+- Param: _txt
+
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 121](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L121)
+## begin_playerSetup_checkName
+
+Type: function
+
+Description: 
+- Param: _txtFirstNameInput
+- Param: _txtLastNameInput
+- Param: _startplay
+
+File: [host\Singleplayer\Scenarios\begin_playerSetup.sqf at line 126](../../../Src/host/Singleplayer/Scenarios/begin_playerSetup.sqf#L126)
+# Chapter1.sqf
+
+## cpt1_playerUniform
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"NomadCloth9"
+```
+File: [host\Singleplayer\Scenarios\Chapter1.sqf at line 10](../../../Src/host/Singleplayer/Scenarios/Chapter1.sqf#L10)
+## cpt1_data_foundFirstMushroom
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter1.sqf at line 681](../../../Src/host/Singleplayer/Scenarios/Chapter1.sqf#L681)
+## cpt1_act_openMap
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter1.sqf at line 525](../../../Src/host/Singleplayer/Scenarios/Chapter1.sqf#L525)
+## cpt1_act_addMapViewHandler
+
+Type: function
+
+Description: 
+- Param: _t
+
+File: [host\Singleplayer\Scenarios\Chapter1.sqf at line 565](../../../Src/host/Singleplayer/Scenarios/Chapter1.sqf#L565)
 # Chapter2.sqf
 
-## cpt2_json_allowedRecipes
+## cpt2_craftDuration
 
 Type: Variable
 
@@ -1347,9 +2857,161 @@ Description: startpos: cpt2_pos_start
 
 Initial value:
 ```sqf
-'...
+15
 ```
 File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 10](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L10)
+## cpt2_json_allowedRecipes
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+'...
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 11](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L11)
+## cpt2_data_healingSkill
+
+Type: Variable
+
+Description: save and increase healing
+
+
+Initial value:
+```sqf
+5
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 78](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L78)
+## cpt2_defaultHud
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"chat+right+stats+cursor+inv"
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 80](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L80)
+## cpt2_defaultHudWithStamina
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+cpt2_defaultHud + "+stam"
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 81](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L81)
+## cpt2_canClickByFood
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 83](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L83)
+## cpt2_data_listTorches
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 119](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L119)
+## cpt2_data_canUseSelections
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 193](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L193)
+## cpt2_data_pillMessage
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"Достаньте упаковку #(обезболивающего) из вашего инвентаря."
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 665](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L665)
+## cpt2_data_bandageRefList
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 804](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L804)
+## cpt2_trg_preend_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 1049](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L1049)
+## cpt2_fnc_clickself_ItemCheck
+
+Type: function
+
+Description: хандлер поедания
+
+
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 86](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L86)
+## cpt2_fnc_canPickupItem
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 109](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L109)
+## cpt2_act_internal_printMessageOnTorch
+
+Type: function
+
+Description: 
+- Param: _isDisAct (optional, default true)
+
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 121](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L121)
+## cpt2_act_enableTorchHadnler
+
+Type: function
+
+Description: 
+- Param: _t
+
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 144](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L144)
 ## cpt2_restoreTrapMethods
 
 Type: function
@@ -1357,7 +3019,7 @@ Type: function
 Description: restore methods
 
 
-File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 497](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L497)
+File: [host\Singleplayer\Scenarios\Chapter2.sqf at line 985](../../../Src/host/Singleplayer/Scenarios/Chapter2.sqf#L985)
 # Chapter3.sqf
 
 ## cpt3_hudvis_default
@@ -1369,7 +3031,7 @@ Description:
 
 Initial value:
 ```sqf
-"right+stats+cursor+inv"
+"chat+stam+right+stats+cursor+inv"
 ```
 File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 7](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L7)
 ## cpt3_hudvis_eaterzone
@@ -1396,6 +3058,54 @@ Initial value:
 cpt3_hudvis_eaterzone + "+up"
 ```
 File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 9](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L9)
+## cpt3_trg_enterdarkzone_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 124](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L124)
+## cpt4_data_eaterHandleLife
+
+Type: function
+
+Description: eater stealth handler
+
+
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 626](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L626)
+## cpt3_data_doorSeeDialogPerformed
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 701](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L701)
+## cpt4_func_isEaterAlive
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 591](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L591)
+## cpt4_func_eaterAttack
+
+Type: function
+
+Description: 
+- Param: _mob
+
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 595](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L595)
 ## cpt3_func_damageEvent
 
 Type: function
@@ -1403,7 +3113,7 @@ Type: function
 Description: 
 
 
-File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 562](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L562)
+File: [host\Singleplayer\Scenarios\Chapter3.sqf at line 856](../../../Src/host/Singleplayer/Scenarios/Chapter3.sqf#L856)
 # Chapter4.sqf
 
 ## cpt4_questName_begin
@@ -1470,7 +3180,7 @@ File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 28](../../../Src/host/Si
 
 Type: Variable
 
-Description: 
+Description: because
 
 
 Initial value:
@@ -1502,6 +3212,102 @@ Initial value:
 "GateCity G:8fd0oIb9ArY (1)"
 ```
 File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 32](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L32)
+## cpt4_data_karimFace
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"face05_baf"
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 34](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L34)
+## cpt4_playerUniform
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"WatchmanCloth"
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 36](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L36)
+## cpt4_data_hudStatesDefault
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"chat+right+stats+cursor+inv+stam"
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 38](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L38)
+## cpt4_data_canTakeDocPaper
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 617](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L617)
+## cpt4_data_refLastTakenDoc
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+nullPtr
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 618](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L618)
+## cpt4_trg_gotomed_act
+
+Type: Variable
+
+Description: event started anim army guys
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1410](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1410)
+## cpt4_data_playerHandlerNamesOnCutscene
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+["item_action","main_action","open_inventory"]
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1570](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1570)
+## cpt4_trg_barstartmusic_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1821](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1821)
 ## cpt4_bar_musicProc
 
 Type: Variable
@@ -1513,7 +3319,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 768](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L768)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1857](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1857)
 ## cpt4_bar_musicUpdateReq
 
 Type: Variable
@@ -1525,7 +3331,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 769](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L769)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1858](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1858)
 ## cpt4_bar_musicHandle
 
 Type: Variable
@@ -1537,19 +3343,19 @@ Initial value:
 ```sqf
 -1
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 773](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L773)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1862](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1862)
 ## cpt4_bar_curMusicPlayed
 
 Type: Variable
 
-Description: !errors... ifcheck(
+Description: new offset
 
 
 Initial value:
 ```sqf
 -1
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 777](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L777)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1870](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1870)
 ## cpt4_bar_curMusicStartTime
 
 Type: Variable
@@ -1561,7 +3367,7 @@ Initial value:
 ```sqf
 0
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 778](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L778)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1871](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1871)
 ## cpt4_bar_curMusicDist
 
 Type: Variable
@@ -1573,7 +3379,7 @@ Initial value:
 ```sqf
 10
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 779](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L779)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1872](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1872)
 ## cpt4_bar_curMusicName
 
 Type: Variable
@@ -1585,7 +3391,19 @@ Initial value:
 ```sqf
 ""
 ```
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 780](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L780)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1873](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1873)
+## cpt4_internal_brodyagaDrink_threadHandle
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+sp_threadNull
+```
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 2226](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L2226)
 ## cpt4_addProcessorMainAct
 
 Type: function
@@ -1594,4 +3412,514 @@ Description:
 - Param: _tobjName
 - Param: _code
 
-File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 34](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L34)
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 40](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L40)
+## cpt4_internal_func_checkMainAction
+
+Type: function
+
+Description: 
+- Param: _t
+
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 68](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L68)
+## cpt4_func_genDescDocs
+
+Type: function
+
+Description: 
+- Param: _name (optional, default "")
+- Param: _role (optional, default "временное пребывание")
+- Param: _note (optional, default "нет")
+
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 81](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L81)
+## cpt4_internal_delegate_baseClothRemoveItem
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 103](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L103)
+## cpt4_func_setLockPlayerInteract
+
+Type: function
+
+Description: 
+- Param: _lock
+
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 1571](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L1571)
+## cpt4_func_alcoDrinkProcess_forthread
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter4.sqf at line 2001](../../../Src/host/Singleplayer/Scenarios/Chapter4.sqf#L2001)
+# Chapter5.sqf
+
+## cpt5_debug_skipStart
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 8](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L8)
+## cpt5_questName_startCombat
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"Война"
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 10](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L10)
+## cpt5_questName_rangedCombat
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"Лучшая защита - нападение"
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 11](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L11)
+## cpt5_questName_preend
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"Последний рывок"
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 12](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L12)
+## cpt5_playerUniform
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"StreakCloth"
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 14](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L14)
+## cpt5_data_rifleSkill
+
+Type: Variable
+
+Description: save rifle skill
+
+
+Initial value:
+```sqf
+5
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 16](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L16)
+## cpt5_trg_underguystalk_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 528](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L528)
+## cpt5_act_lekartalks
+
+Type: Variable
+
+Description: общение лекарей
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 549](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L549)
+## cpt5_act_undergroundmover
+
+Type: Variable
+
+Description: парень, идущий от спальников до оружейки
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 572](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L572)
+## cpt5_act_kapitanunderground
+
+Type: Variable
+
+Description: капитан на входе подземки
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 584](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L584)
+## cpt5_act_kapitanreadytoup
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 585](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L585)
+## cpt5_data_kapitan_startQuest_loadweapon
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 586](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L586)
+## cpt5_internal_handleUpdateFire
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+startUpdate(interact_th__clith,0) //start fire update
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 822](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L822)
+## cpt5_internal_warzoneGrenades
+
+Type: Variable
+
+Description: start fire update
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 824](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L824)
+## cpt5_trg_combat_enterstrelok_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 826](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L826)
+## cpt5_data_first_shootingTimeCanReset
+
+Type: Variable
+
+Description: таймер первой перестрелки
+
+
+Initial value:
+```sqf
+0
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 870](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L870)
+## cpt5_trg_combat_stage1_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 871](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L871)
+## cpt5_trg_enterwarzone_entered
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1099](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1099)
+## cpt5_warzone_danger
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1121](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1121)
+## cpt5_trg_savewoundedstart_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1182](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1182)
+## cpt5_trg_woundedmansave_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1229](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1229)
+## cpt5_act_shotingStarted
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1293](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1293)
+## cpt5_trg_dialog_onseegate
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1354](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1354)
+## cpt5_trg_iztdefkilldanger_process
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+true
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1533](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1533)
+## cpt5_trg_closecombat_enterhouse_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1569](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1569)
+## cpt5_act_closecombat_started
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1578](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1578)
+## cpt5_data_closecombat_izt_dx
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+30
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1605](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1605)
+## cpt5_internal_data_list_cacheRestoreInject
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1622](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1622)
+## cpt5_internal_data_closecombat_shoothandler
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+null
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1623](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1623)
+## cpt5_internal_data_ctr_canDamage
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1700](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1700)
+## cpt5_data_lastbattle
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1932](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1932)
+## cpt5end_trg_ghostenterdoor_act
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+false
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 2125](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L2125)
+## cpt5_endtitle_text
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+"Дату следующего запуска вы можете узнать в дискорде " + (["https://discord.relicta.ru"] call cpt5_func_createRef)
+```
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 2165](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L2165)
+## cpt5_act_doShot
+
+Type: function
+
+Description: 
+- Param: _mob
+- Param: _targetPos
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 731](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L731)
+## cpt5_getLookAt
+
+Type: function
+
+Description: 
+- Param: _start (optional, default ['0.0', '0.0', '0.0'])
+- Param: _end (optional, default ['0.0', '0.0', '0.0'])
+- Param: _default (optional, default [['0.0', '0.0', '0.0'], ['0.0', '0.0', '0.0']])
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 778](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L778)
+## cpt5_explosionGrenade
+
+Type: function
+
+Description: 
+- Param: _pos
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 790](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L790)
+## cpt5_getVisMode
+
+Type: function
+
+Description: 
+- Param: _src
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 806](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L806)
+## cpt5_debug_internal_fnc_testCloseCombat
+
+Type: function
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1608](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1608)
+## cpt5_internal_fnc_prepCloseCombatLogic
+
+Type: function
+
+Description: 
+- Param: _t
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 1624](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L1624)
+## cpt5_end_fnc_effOnDoor
+
+Type: function
+
+Description: 
+
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 2008](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L2008)
+## cpt5_func_createRef
+
+Type: function
+
+Description: 
+- Param: _txt
+- Param: _color (optional, default "#ffffff")
+
+File: [host\Singleplayer\Scenarios\Chapter5.sqf at line 2160](../../../Src/host/Singleplayer/Scenarios/Chapter5.sqf#L2160)
