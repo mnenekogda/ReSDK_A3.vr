@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -46,6 +46,24 @@ class(SignTableKabak) extends(IStruct)
 	var(model,"ca\signs2\signb_pub_ru1.p3d");
 	var(material,"MatWood");
 	var(dr,1);
+endclass
+
+editor_attribute("EditorGenerated")
+class(SignTableKuznya) extends(SignTableKabak)
+	var(model,"ml\ml_object_new\model_05\kyznya.p3d");
+	var(name,"Кузня");
+	var(material,"MatMetal");
+endclass
+
+editor_attribute("EditorGenerated")
+class(SignTableGostinitca) extends(SignTableKabak)
+	var(model,"ca\signs2\signb_pub_ru3.p3d");
+	var(name,"Гостиница");
+endclass
+
+editor_attribute("EditorGenerated")
+class(SignTableGostinitca2) extends(SignTableGostinitca)
+	var(model,"ca\signs2\signb_pub_ru2.p3d");
 endclass
 
 

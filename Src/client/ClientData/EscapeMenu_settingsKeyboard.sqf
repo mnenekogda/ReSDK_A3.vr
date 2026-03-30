@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -9,7 +9,7 @@ namespace(clientData,cd_)
 decl(void())
 esc_settings_loader_keyboard = {
 	
-	if (esc_settings_curIndex == 0) exitWith {};
+	if !([0] call esc_settings_beginLoadSection) exitWith {};
 		
 	#define setting_element_size_x 10
 	

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -71,6 +71,7 @@ loadFile("src\host\GameObjects\Items\Captives\CaptiveBase.sqf");
 loadFile("src\host\GameObjects\Structures\IStruct.sqf");
 loadFile("src\host\GameObjects\Structures\Constructions\Construction.sqf");
 	loadFile("src\host\GameObjects\Structures\Constructions\DirtPiles.sqf");
+	loadFile("src\host\GameObjects\Structures\Constructions\Stones.sqf");
 	loadFile("src\host\GameObjects\Structures\Constructions\Fences.sqf");
 	loadFile("src\host\GameObjects\Structures\Constructions\Floors.sqf");
 	loadFile("src\host\GameObjects\Structures\Constructions\Rails.sqf");

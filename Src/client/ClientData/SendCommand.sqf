@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -387,17 +387,69 @@ localCommand("grafon")
 
 localCommand("reloadvoice")
 {
-	
-	if !isNull(vs_internal_reloadTimer) then {
-		if (vs_internal_reloadTimer) exitWith {
-			warning("localCommand::mapCmd<GameFunction>['reloadvoice'] - too fast calling command. Wait some time...");
-		};	
-		vs_canProcess = false;
-		vs_internal_reloadTimer = true;
-		invokeAfterDelay({vs_internal_reloadTimer = false; vs_canProcess = true},5);
+	if (vs_useReVoice) then {
+		if (isLobbyOpen) exitWith {
+			["Перезапуск войса в лобби невозможен","system"] call chatPrint;
+		};
+		
+		if isNull(vs_internal_reloadVoiceNew) then {
+			vs_internal_reloadVoiceNew = true;
+			if (call vs_isConnectedVoice) then {
+				["Остановка войса...","system"] call chatPrint;
+				call vs_disconnectVoiceSystem;
+			};
+			private _code = {
+				["Подключение войса...","system"] call chatPrint;
+				if (call vs_connectToVoiceSystem) then {
+					["Войс подключен!...","system"] call chatPrint;
+				} else {
+					["Ошибка подключения войса. Попробуйте снова или перезапустите игру","system"] call chatPrint;
+				};
+				vs_internal_reloadVoiceNew = null;
+			}; invokeAfterDelay(_code,2);
+		};
 	} else {
-		vs_canProcess = false;
-		vs_internal_reloadTimer = true;
-		invokeAfterDelay({vs_internal_reloadTimer = false; vs_canProcess = true},5);
+		if !isNull(vs_internal_reloadTimer) then {
+			if (vs_internal_reloadTimer) exitWith {
+				warning("localCommand::mapCmd<GameFunction>['reloadvoice'] - too fast calling command. Wait some time...");
+			};	
+			vs_canProcess = false;
+			vs_internal_reloadTimer = true;
+			invokeAfterDelay({vs_internal_reloadTimer = false; vs_canProcess = true},5);
+		} else {
+			vs_canProcess = false;
+			vs_internal_reloadTimer = true;
+			invokeAfterDelay({vs_internal_reloadTimer = false; vs_canProcess = true},5);
+		};
 	};
+	
+};
+
+localCommand("setvoipvol") 
+{
+	["В настройках Реликты (раздел Игра) вы можете более удобно настроить эту опцию","system"] call chatPrint;
+	_new = parseNumber arguments;
+	if ([_new] call vs_setMasterVoiceVolume) then {
+		vs_voipVolCurrent = _new;
+		profileNamespace setVariable ["rel_voipvol",_new];
+		saveProfileNamespace;
+	};
+};
+
+localCommand("disablecolorcorrection")
+{
+	if isNullVar(cd_colorCorrection_disabled) then {
+		cd_colorCorrection_disabled = false;
+	};
+	
+	cd_colorCorrection_disabled = !cd_colorCorrection_disabled;
+	
+	["color_default",!cd_colorCorrection_disabled] call pp_setEnable;
+	
+	private _msg = if (cd_colorCorrection_disabled) then {
+		"Цветокоррекция отключена"
+	} else {
+		"Цветокоррекция включена"
+	};
+	[_msg,"system"] call chatPrint;
 };

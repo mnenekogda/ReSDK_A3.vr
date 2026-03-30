@@ -61,7 +61,7 @@ Replaced value:
 ```sqf
 [0,0]
 ```
-File: [client\ClientData\ClientData.sqf at line 48](../../../Src/client/ClientData/ClientData.sqf#L48)
+File: [client\ClientData\ClientData.sqf at line 50](../../../Src/client/ClientData/ClientData.sqf#L50)
 ## printerr(code,text)
 
 Type: constant
@@ -74,7 +74,7 @@ Replaced value:
 ```sqf
 if (_code == code) exitWith {[text] call (getDisplay getVariable ["printError",{}])}
 ```
-File: [client\ClientData\ClientData.sqf at line 536](../../../Src/client/ClientData/ClientData.sqf#L536)
+File: [client\ClientData\ClientData.sqf at line 540](../../../Src/client/ClientData/ClientData.sqf#L540)
 ## cd_clientName
 
 Type: Variable
@@ -86,7 +86,7 @@ Initial value:
 ```sqf
 ""
 ```
-File: [client\ClientData\ClientData.sqf at line 44](../../../Src/client/ClientData/ClientData.sqf#L44)
+File: [client\ClientData\ClientData.sqf at line 46](../../../Src/client/ClientData/ClientData.sqf#L46)
 ## cd_charName
 
 Type: Variable
@@ -98,7 +98,7 @@ Initial value:
 ```sqf
 "Обитатель Сети"
 ```
-File: [client\ClientData\ClientData.sqf at line 46](../../../Src/client/ClientData/ClientData.sqf#L46)
+File: [client\ClientData\ClientData.sqf at line 48](../../../Src/client/ClientData/ClientData.sqf#L48)
 ## cd_skillNames
 
 Type: Variable
@@ -110,7 +110,7 @@ Initial value:
 ```sqf
 ["СЛ","ИН","ЛВ","ЗД","ВНС","ВОЛЯ","ВОС","ЖЗ"]
 ```
-File: [client\ClientData\ClientData.sqf at line 50](../../../Src/client/ClientData/ClientData.sqf#L50)
+File: [client\ClientData\ClientData.sqf at line 52](../../../Src/client/ClientData/ClientData.sqf#L52)
 ## cd_skills
 
 Type: Variable
@@ -122,7 +122,7 @@ Initial value:
 ```sqf
 [sk_nan,sk_nan,sk_nan,sk_nan,sk_nan,sk_nan,sk_nan,sk_nan] //массив со скиллами
 ```
-File: [client\ClientData\ClientData.sqf at line 52](../../../Src/client/ClientData/ClientData.sqf#L52)
+File: [client\ClientData\ClientData.sqf at line 54](../../../Src/client/ClientData/ClientData.sqf#L54)
 ## cd_stamina_cur
 
 Type: Variable
@@ -134,7 +134,7 @@ Initial value:
 ```sqf
 100
 ```
-File: [client\ClientData\ClientData.sqf at line 56](../../../Src/client/ClientData/ClientData.sqf#L56)
+File: [client\ClientData\ClientData.sqf at line 58](../../../Src/client/ClientData/ClientData.sqf#L58)
 ## cd_stamina_max
 
 Type: Variable
@@ -146,7 +146,7 @@ Initial value:
 ```sqf
 100
 ```
-File: [client\ClientData\ClientData.sqf at line 58](../../../Src/client/ClientData/ClientData.sqf#L58)
+File: [client\ClientData\ClientData.sqf at line 60](../../../Src/client/ClientData/ClientData.sqf#L60)
 ## cd_curSelection
 
 Type: Variable
@@ -158,7 +158,7 @@ Initial value:
 ```sqf
 TARGET_ZONE_TORSO
 ```
-File: [client\ClientData\ClientData.sqf at line 90](../../../Src/client/ClientData/ClientData.sqf#L90)
+File: [client\ClientData\ClientData.sqf at line 92](../../../Src/client/ClientData/ClientData.sqf#L92)
 ## cd_specialAction
 
 Type: Variable
@@ -170,7 +170,7 @@ Initial value:
 ```sqf
 SPECIAL_ACTION_NO
 ```
-File: [client\ClientData\ClientData.sqf at line 92](../../../Src/client/ClientData/ClientData.sqf#L92)
+File: [client\ClientData\ClientData.sqf at line 94](../../../Src/client/ClientData/ClientData.sqf#L94)
 ## cd_curDefType
 
 Type: Variable
@@ -182,7 +182,7 @@ Initial value:
 ```sqf
 DEF_TYPE_DODGE
 ```
-File: [client\ClientData\ClientData.sqf at line 96](../../../Src/client/ClientData/ClientData.sqf#L96)
+File: [client\ClientData\ClientData.sqf at line 98](../../../Src/client/ClientData/ClientData.sqf#L98)
 ## cd_curCombatStyle
 
 Type: Variable
@@ -194,7 +194,7 @@ Initial value:
 ```sqf
 COMBAT_STYLE_NO
 ```
-File: [client\ClientData\ClientData.sqf at line 98](../../../Src/client/ClientData/ClientData.sqf#L98)
+File: [client\ClientData\ClientData.sqf at line 100](../../../Src/client/ClientData/ClientData.sqf#L100)
 ## cd_curAttackType
 
 Type: Variable
@@ -206,7 +206,7 @@ Initial value:
 ```sqf
 ATTACK_TYPE_THRUST
 ```
-File: [client\ClientData\ClientData.sqf at line 100](../../../Src/client/ClientData/ClientData.sqf#L100)
+File: [client\ClientData\ClientData.sqf at line 102](../../../Src/client/ClientData/ClientData.sqf#L102)
 ## cd_activeHand
 
 Type: Variable
@@ -218,7 +218,7 @@ Initial value:
 ```sqf
 INV_HAND_L
 ```
-File: [client\ClientData\ClientData.sqf at line 102](../../../Src/client/ClientData/ClientData.sqf#L102)
+File: [client\ClientData\ClientData.sqf at line 104](../../../Src/client/ClientData/ClientData.sqf#L104)
 ## cd_lca_r
 
 Type: Variable
@@ -230,7 +230,7 @@ Initial value:
 ```sqf
 0
 ```
-File: [client\ClientData\ClientData.sqf at line 105](../../../Src/client/ClientData/ClientData.sqf#L105)
+File: [client\ClientData\ClientData.sqf at line 107](../../../Src/client/ClientData/ClientData.sqf#L107)
 ## cd_lca_l
 
 Type: Variable
@@ -242,7 +242,7 @@ Initial value:
 ```sqf
 0
 ```
-File: [client\ClientData\ClientData.sqf at line 107](../../../Src/client/ClientData/ClientData.sqf#L107)
+File: [client\ClientData\ClientData.sqf at line 109](../../../Src/client/ClientData/ClientData.sqf#L109)
 ## cd_internal_lastTPPos
 
 Type: Variable
@@ -254,7 +254,7 @@ Initial value:
 ```sqf
 vec3(0,0,0)
 ```
-File: [client\ClientData\ClientData.sqf at line 249](../../../Src/client/ClientData/ClientData.sqf#L249)
+File: [client\ClientData\ClientData.sqf at line 253](../../../Src/client/ClientData/ClientData.sqf#L253)
 ## cd_internal_lastTPDir
 
 Type: Variable
@@ -266,7 +266,7 @@ Initial value:
 ```sqf
 null
 ```
-File: [client\ClientData\ClientData.sqf at line 251](../../../Src/client/ClientData/ClientData.sqf#L251)
+File: [client\ClientData\ClientData.sqf at line 255](../../../Src/client/ClientData/ClientData.sqf#L255)
 ## cd_internal_tpHandle
 
 Type: Variable
@@ -278,7 +278,7 @@ Initial value:
 ```sqf
 -1
 ```
-File: [client\ClientData\ClientData.sqf at line 253](../../../Src/client/ClientData/ClientData.sqf#L253)
+File: [client\ClientData\ClientData.sqf at line 257](../../../Src/client/ClientData/ClientData.sqf#L257)
 ## cd_internal_hasTPError
 
 Type: Variable
@@ -290,7 +290,7 @@ Initial value:
 ```sqf
 false
 ```
-File: [client\ClientData\ClientData.sqf at line 255](../../../Src/client/ClientData/ClientData.sqf#L255)
+File: [client\ClientData\ClientData.sqf at line 259](../../../Src/client/ClientData/ClientData.sqf#L259)
 ## cd_internal_lastTPObj
 
 Type: Variable
@@ -302,7 +302,7 @@ Initial value:
 ```sqf
 objnull
 ```
-File: [client\ClientData\ClientData.sqf at line 257](../../../Src/client/ClientData/ClientData.sqf#L257)
+File: [client\ClientData\ClientData.sqf at line 261](../../../Src/client/ClientData/ClientData.sqf#L261)
 ## cd_internal_startLoadTime
 
 Type: Variable
@@ -314,7 +314,7 @@ Initial value:
 ```sqf
 0
 ```
-File: [client\ClientData\ClientData.sqf at line 259](../../../Src/client/ClientData/ClientData.sqf#L259)
+File: [client\ClientData\ClientData.sqf at line 263](../../../Src/client/ClientData/ClientData.sqf#L263)
 ## cd_OnSkillsUpdate
 
 Type: function
@@ -323,7 +323,7 @@ Description:
 - Param: _id
 - Param: _val
 
-File: [client\ClientData\ClientData.sqf at line 62](../../../Src/client/ClientData/ClientData.sqf#L62)
+File: [client\ClientData\ClientData.sqf at line 64](../../../Src/client/ClientData/ClientData.sqf#L64)
 ## cd_setVideoSettings
 
 Type: function
@@ -331,7 +331,7 @@ Type: function
 Description: 
 - Param: _value
 
-File: [client\ClientData\ClientData.sqf at line 114](../../../Src/client/ClientData/ClientData.sqf#L114)
+File: [client\ClientData\ClientData.sqf at line 116](../../../Src/client/ClientData/ClientData.sqf#L116)
 ## cd_onPrepareClient
 
 Type: function
@@ -340,7 +340,7 @@ Description:
 - Param: _atlPos
 - Param: _vision
 
-File: [client\ClientData\ClientData.sqf at line 136](../../../Src/client/ClientData/ClientData.sqf#L136)
+File: [client\ClientData\ClientData.sqf at line 138](../../../Src/client/ClientData/ClientData.sqf#L138)
 ## cd_tpLoad
 
 Type: function
@@ -349,7 +349,7 @@ Description:
 - Param: _pos
 - Param: _dir
 
-File: [client\ClientData\ClientData.sqf at line 262](../../../Src/client/ClientData/ClientData.sqf#L262)
+File: [client\ClientData\ClientData.sqf at line 266](../../../Src/client/ClientData/ClientData.sqf#L266)
 ## cd_syncObjTransform
 
 Type: function
@@ -359,7 +359,7 @@ Description:
 - Param: _pos
 - Param: _dir
 
-File: [client\ClientData\ClientData.sqf at line 377](../../../Src/client/ClientData/ClientData.sqf#L377)
+File: [client\ClientData\ClientData.sqf at line 381](../../../Src/client/ClientData/ClientData.sqf#L381)
 ## cd_clientDisconnect
 
 Type: function
@@ -367,7 +367,7 @@ Type: function
 Description: 
 - Param: _args
 
-File: [client\ClientData\ClientData.sqf at line 388](../../../Src/client/ClientData/ClientData.sqf#L388)
+File: [client\ClientData\ClientData.sqf at line 392](../../../Src/client/ClientData/ClientData.sqf#L392)
 ## cd_authproc
 
 Type: function
@@ -375,7 +375,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 416](../../../Src/client/ClientData/ClientData.sqf#L416)
+File: [client\ClientData\ClientData.sqf at line 420](../../../Src/client/ClientData/ClientData.sqf#L420)
 ## cd_openAuth
 
 Type: function
@@ -383,7 +383,7 @@ Type: function
 Description: 
 - Param: _mes
 
-File: [client\ClientData\ClientData.sqf at line 423](../../../Src/client/ClientData/ClientData.sqf#L423)
+File: [client\ClientData\ClientData.sqf at line 427](../../../Src/client/ClientData/ClientData.sqf#L427)
 ## cd_authResult
 
 Type: function
@@ -392,7 +392,7 @@ Description:
 - Param: _code
 - Param: _nick
 
-File: [client\ClientData\ClientData.sqf at line 529](../../../Src/client/ClientData/ClientData.sqf#L529)
+File: [client\ClientData\ClientData.sqf at line 533](../../../Src/client/ClientData/ClientData.sqf#L533)
 ## cd_switchMove_anim
 
 Type: function
@@ -400,7 +400,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 560](../../../Src/client/ClientData/ClientData.sqf#L560)
+File: [client\ClientData\ClientData.sqf at line 564](../../../Src/client/ClientData/ClientData.sqf#L564)
 ## cd_switchMove_force_anim
 
 Type: function
@@ -408,7 +408,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 565](../../../Src/client/ClientData/ClientData.sqf#L565)
+File: [client\ClientData\ClientData.sqf at line 569](../../../Src/client/ClientData/ClientData.sqf#L569)
 ## cd_playMove_anim
 
 Type: function
@@ -416,7 +416,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 572](../../../Src/client/ClientData/ClientData.sqf#L572)
+File: [client\ClientData\ClientData.sqf at line 576](../../../Src/client/ClientData/ClientData.sqf#L576)
 ## cd_setMimic_anim
 
 Type: function
@@ -424,7 +424,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 578](../../../Src/client/ClientData/ClientData.sqf#L578)
+File: [client\ClientData\ClientData.sqf at line 582](../../../Src/client/ClientData/ClientData.sqf#L582)
 ## cd_switchAction_anim
 
 Type: function
@@ -432,7 +432,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 583](../../../Src/client/ClientData/ClientData.sqf#L583)
+File: [client\ClientData\ClientData.sqf at line 587](../../../Src/client/ClientData/ClientData.sqf#L587)
 ## cd_syncongrabrot_setvdirup
 
 Type: function
@@ -440,7 +440,7 @@ Type: function
 Description: 
 - Param: _m
 
-File: [client\ClientData\ClientData.sqf at line 588](../../../Src/client/ClientData/ClientData.sqf#L588)
+File: [client\ClientData\ClientData.sqf at line 592](../../../Src/client/ClientData/ClientData.sqf#L592)
 ## cd_camshake_proc
 
 Type: function
@@ -448,7 +448,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\ClientData.sqf at line 597](../../../Src/client/ClientData/ClientData.sqf#L597)
+File: [client\ClientData\ClientData.sqf at line 601](../../../Src/client/ClientData/ClientData.sqf#L601)
 ## cd_replicate_replloc
 
 Type: function
@@ -457,7 +457,7 @@ Description:
 - Param: _method
 - Param: _ctx
 
-File: [client\ClientData\ClientData.sqf at line 602](../../../Src/client/ClientData/ClientData.sqf#L602)
+File: [client\ClientData\ClientData.sqf at line 606](../../../Src/client/ClientData/ClientData.sqf#L606)
 ## repl_doLocal
 
 Type: function
@@ -466,7 +466,7 @@ Description:
 - Param: _method
 - Param: _ctx
 
-File: [client\ClientData\ClientData.sqf at line 611](../../../Src/client/ClientData/ClientData.sqf#L611)
+File: [client\ClientData\ClientData.sqf at line 615](../../../Src/client/ClientData/ClientData.sqf#L615)
 # ClientDataGamemode.sqf
 
 ## cd_onChangeGameState
@@ -629,7 +629,7 @@ Description:
 - Param: _mob
 - Param: _nextAction (optional, default -1)
 
-File: [client\ClientData\ClientData_ConnectionManager.sqf at line 190](../../../Src/client/ClientData/ClientData_ConnectionManager.sqf#L190)
+File: [client\ClientData\ClientData_ConnectionManager.sqf at line 194](../../../Src/client/ClientData/ClientData_ConnectionManager.sqf#L194)
 ## cd_onPlayingEnd
 
 Type: function
@@ -638,7 +638,7 @@ Description:
 - Param: _mob
 - Param: _nextAction (optional, default -1)
 
-File: [client\ClientData\ClientData_ConnectionManager.sqf at line 197](../../../Src/client/ClientData/ClientData_ConnectionManager.sqf#L197)
+File: [client\ClientData\ClientData_ConnectionManager.sqf at line 201](../../../Src/client/ClientData/ClientData_ConnectionManager.sqf#L201)
 # ClientData_customAnims.sqf
 
 ## cd_customAnim
@@ -1134,7 +1134,7 @@ Initial value:
 ```sqf
 1.0
 ```
-File: [client\ClientData\EscapeMenu.sqf at line 270](../../../Src/client/ClientData/EscapeMenu.sqf#L270)
+File: [client\ClientData\EscapeMenu.sqf at line 283](../../../Src/client/ClientData/EscapeMenu.sqf#L283)
 ## esc_internal_handleSettings
 
 Type: function
@@ -1168,6 +1168,14 @@ Description:
 
 
 File: [client\ClientData\EscapeMenu.sqf at line 204](../../../Src/client/ClientData/EscapeMenu.sqf#L204)
+## esc_settings_beginLoadSection
+
+Type: function
+
+Description: 
+- Param: _newIndex
+
+File: [client\ClientData\EscapeMenu.sqf at line 270](../../../Src/client/ClientData/EscapeMenu.sqf#L270)
 ## esc_settings_open
 
 Type: function
@@ -1175,7 +1183,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\EscapeMenu.sqf at line 273](../../../Src/client/ClientData/EscapeMenu.sqf#L273)
+File: [client\ClientData\EscapeMenu.sqf at line 286](../../../Src/client/ClientData/EscapeMenu.sqf#L286)
 ## esc_settings_close
 
 Type: function
@@ -1183,7 +1191,7 @@ Type: function
 Description: 
 - Param: _isSaved (optional, default false)
 
-File: [client\ClientData\EscapeMenu.sqf at line 335](../../../Src/client/ClientData/EscapeMenu.sqf#L335)
+File: [client\ClientData\EscapeMenu.sqf at line 349](../../../Src/client/ClientData/EscapeMenu.sqf#L349)
 ## esc_settings_clearSettingList
 
 Type: function
@@ -1191,7 +1199,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\EscapeMenu.sqf at line 362](../../../Src/client/ClientData/EscapeMenu.sqf#L362)
+File: [client\ClientData\EscapeMenu.sqf at line 377](../../../Src/client/ClientData/EscapeMenu.sqf#L377)
 # EscapeMenu_settingsGame.sqf
 
 ## SETTING_INDEX_NAME
@@ -1326,6 +1334,38 @@ Replaced value:
 10
 ```
 File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 20](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L20)
+## SETTING_INDEX_STORAGE
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+11
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 21](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L21)
+## settingEx(name,desc,type,range,variable,event_on_apply,event_on_abort,event_on_change,storage)
+
+Type: constant
+
+Description: 
+- Param: name
+- Param: desc
+- Param: type
+- Param: range
+- Param: variable
+- Param: event_on_apply
+- Param: event_on_abort
+- Param: event_on_change
+- Param: storage
+
+Replaced value:
+```sqf
+[name,desc,type,range,#variable,variable,variable,variable,event_on_apply,event_on_abort,event_on_change,storage]
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 25](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L25)
 ## setting(name,desc,type,range,variable,event_on_apply,event_on_abort,event_on_change)
 
 Type: constant
@@ -1342,9 +1382,9 @@ Description:
 
 Replaced value:
 ```sqf
-[name,desc,type,range,#variable,variable,variable,variable,event_on_apply,event_on_abort,event_on_change]
+settingEx(name,desc,type,range,variable,event_on_apply,event_on_abort,event_on_change,SETTING_STORAGE_SERVER)
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 24](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L24)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 25](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L25)
 ## settingTEvent(name,desc,type,range,variable,__EVNT__)
 
 Type: constant
@@ -1359,9 +1399,28 @@ Description:
 
 Replaced value:
 ```sqf
-[name,desc,type,range,#variable,variable,variable,variable,__EVNT__,__EVNT__,__EVNT__]
+settingEx(name,desc,type,range,variable,__EVNT__,__EVNT__,__EVNT__,SETTING_STORAGE_SERVER)
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 27](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L27)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 30](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L30)
+## settingLocal(name,desc,type,range,variable,event_on_apply,event_on_abort,event_on_change)
+
+Type: constant
+
+Description: 
+- Param: name
+- Param: desc
+- Param: type
+- Param: range
+- Param: variable
+- Param: event_on_apply
+- Param: event_on_abort
+- Param: event_on_change
+
+Replaced value:
+```sqf
+settingEx(name,desc,type,range,variable,event_on_apply,event_on_abort,event_on_change,SETTING_STORAGE_LOCAL)
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 32](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L32)
 ## nextRegion(nameof)
 
 Type: constant
@@ -1373,7 +1432,7 @@ Replaced value:
 ```sqf
 [nameof]
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 30](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L30)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 35](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L35)
 ## COUNT_REGION_SETTINGS
 
 Type: constant
@@ -1385,7 +1444,7 @@ Replaced value:
 ```sqf
 1
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 32](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L32)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 37](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L37)
 ## COLOR_BACKGROUND_REGION_NAME
 
 Type: constant
@@ -1397,7 +1456,31 @@ Replaced value:
 ```sqf
 [0.2,0.2,0.2,0.9]
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 34](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L34)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 39](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L39)
+## SETTING_STORAGE_SERVER
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+0
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 41](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L41)
+## SETTING_STORAGE_LOCAL
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+1
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 43](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L43)
 ## typeInputFloat
 
 Type: constant
@@ -1409,7 +1492,7 @@ Replaced value:
 ```sqf
 0
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 37](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L37)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 46](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L46)
 ## typeSwitcher
 
 Type: constant
@@ -1421,7 +1504,7 @@ Replaced value:
 ```sqf
 1
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 38](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L38)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 47](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L47)
 ## typeSlider
 
 Type: constant
@@ -1433,7 +1516,7 @@ Replaced value:
 ```sqf
 2
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 39](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L39)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 48](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L48)
 ## typeBool
 
 Type: constant
@@ -1445,7 +1528,19 @@ Replaced value:
 ```sqf
 3
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 40](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L40)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 49](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L49)
+## typeVoipInput
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+4
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 50](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L50)
 ## centerize(val)
 
 Type: constant
@@ -1457,7 +1552,7 @@ Replaced value:
 ```sqf
 "<t align='center'>" + val + "</t>"
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 44](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L44)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 54](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L54)
 ## boolRange
 
 Type: constant
@@ -1469,7 +1564,7 @@ Replaced value:
 ```sqf
 [centerize("нет"),centerize("да")]
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 47](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L47)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 57](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L57)
 ## defRange(min,max)
 
 Type: constant
@@ -1482,7 +1577,21 @@ Replaced value:
 ```sqf
 ([min,max] call cd_internal_defRange)
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 49](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L49)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 59](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L59)
+## voipInputRange(min,max,precision)
+
+Type: constant
+
+Description: 
+- Param: min
+- Param: max
+- Param: precision
+
+Replaced value:
+```sqf
+([min,max,precision] call cd_internal_voipInputRange)
+```
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 61](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L61)
 ## NO_EVENT_ON_APPLY
 
 Type: constant
@@ -1494,7 +1603,7 @@ Replaced value:
 ```sqf
 ""
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 56](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L56)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 70](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L70)
 ## value
 
 Type: constant
@@ -1506,7 +1615,7 @@ Replaced value:
 ```sqf
 cd_esc_settings_internal_curChangedValue
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 58](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L58)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 72](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L72)
 ## setting_element_size_x
 
 Type: constant
@@ -1518,7 +1627,7 @@ Replaced value:
 ```sqf
 10
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 166](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L166)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 318](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L318)
 ## cd_esc_settings_internal_curChangedValue
 
 Type: Variable
@@ -1530,7 +1639,7 @@ Initial value:
 ```sqf
 0
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 61](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L61)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 75](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L75)
 ## cd_settingsGame
 
 Type: Variable
@@ -1542,7 +1651,7 @@ Initial value:
 ```sqf
 [...
 ```
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 69](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L69)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 104](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L104)
 ## cd_internal_defRange
 
 Type: function
@@ -1551,7 +1660,92 @@ Description:
 - Param: _mi
 - Param: _ma
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 52](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L52)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 64](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L64)
+## cd_internal_voipInputRange
+
+Type: function
+
+Description: 
+- Param: _mi
+- Param: _ma
+- Param: _prec
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 66](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L66)
+## esc_settings_game_isVoipConnected
+
+Type: function
+
+Description: 
+
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 146](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L146)
+## esc_settings_game_sanitizeVoipValue
+
+Type: function
+
+Description: 
+- Param: _value (optional, default 1)
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 152](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L152)
+## esc_settings_game_formatVoipValue
+
+Type: function
+
+Description: 
+- Param: _value
+- Param: _precision (optional, default 1)
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 161](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L161)
+## esc_settings_game_updateVoipValueText
+
+Type: function
+
+Description: 
+- Param: _wid
+- Param: _value
+- Param: _precision (optional, default 1)
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 167](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L167)
+## esc_settings_game_updateVoipTestButton
+
+Type: function
+
+Description: 
+
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 180](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L180)
+## esc_settings_game_stopVoipTest
+
+Type: function
+
+Description: 
+
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 194](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L194)
+## esc_settings_game_applyVoipValue
+
+Type: function
+
+Description: 
+- Param: _value
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 203](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L203)
+## esc_settings_game_prepareLocalState
+
+Type: function
+
+Description: 
+
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 225](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L225)
+## esc_settings_game_onLeaveSection
+
+Type: function
+
+Description: 
+
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 247](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L247)
 ## esc_settings_game_unloading
 
 Type: function
@@ -1559,7 +1753,7 @@ Type: function
 Description: 
 - Param: _mode
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 105](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L105)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 254](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L254)
 ## esc_settings_loader_game
 
 Type: function
@@ -1567,7 +1761,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 162](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L162)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 314](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L314)
 ## esc_settings_eventOnInput
 
 Type: function
@@ -1576,7 +1770,7 @@ Description:
 - Param: _bt
 - Param: _key
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 256](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L256)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 446](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L446)
 ## esc_settings_eventOnSwitcher
 
 Type: function
@@ -1584,7 +1778,7 @@ Type: function
 Description: 
 - Param: _bt
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 274](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L274)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 464](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L464)
 ## esc_settings_eventOnSlider
 
 Type: function
@@ -1593,7 +1787,7 @@ Description:
 - Param: _bt
 - Param: _newValue
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 298](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L298)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 488](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L488)
 ## esc_settings_eventOnBool
 
 Type: function
@@ -1601,7 +1795,24 @@ Type: function
 Description: 
 - Param: _bt
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 313](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L313)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 503](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L503)
+## esc_settings_eventOnVoipSlider
+
+Type: function
+
+Description: 
+- Param: _bt
+- Param: _newValue
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 525](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L525)
+## esc_settings_eventOnVoipTestButton
+
+Type: function
+
+Description: 
+- Param: _bt
+
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 555](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L555)
 ## esc_settings_event_onSyncGame
 
 Type: function
@@ -1609,7 +1820,7 @@ Type: function
 Description: 
 
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 336](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L336)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 572](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L572)
 ## cd_onLoadGameSettings
 
 Type: function
@@ -1617,7 +1828,7 @@ Type: function
 Description: 
 - Param: _list
 
-File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 344](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L344)
+File: [client\ClientData\EscapeMenu_settingsGame.sqf at line 581](../../../Src/client/ClientData/EscapeMenu_settingsGame.sqf#L581)
 # EscapeMenu_settingsGraphics.sqf
 
 ## setting_element_size_x

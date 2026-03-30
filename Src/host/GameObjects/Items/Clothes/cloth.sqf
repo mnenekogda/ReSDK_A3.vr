@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -184,6 +184,33 @@ class(BodyClothBase) extends(Cloth)
 	var(bodyPartsCovered,TORSO+LEGS+ARMS);
 	var(dr,1);
 	var(weight,gramm(340));
+
+	func(onEquip)
+	{
+		objParams_1(_usr);
+		super();
+		callFuncParams(_usr,syncSmdVar,"decals" arg GERM_CONV_VALUE_TO_VISIBILITY_DECAL(getSelf(germs)));
+	};
+
+	func(onUnequip)
+	{
+		objParams_1(_usr);
+		super();
+		callFuncParams(_usr,syncSmdVar,"decals" arg 0);
+	};
+
+	func(onGermsChanged)
+	{
+		objParams();
+		
+		if callSelf(isInWorld) exitWith {};
+		private _loc = getSelf(loc);
+		if isNullReference(_loc) exitWith {};
+		if !isTypeOf(_loc,BasicMob) exitWith {};
+		
+		callFuncParams(_loc,syncSmdVar,"decals" arg GERM_CONV_VALUE_TO_VISIBILITY_DECAL(getSelf(germs)));
+	};
+
 endclass
 
 //var_runtime

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -213,7 +213,7 @@ class(MatCloth) extends(MatBase)
 	var(color,"5CAD8A");
 	var(damageEffect,"SLIGHT_DAM_CLOTH" call lightSys_getConfigIdByName);
 	var(damageSounds,["damage\cloth_1" arg "damage\cloth_2" arg "damage\cloth_3"]);
-	var(stepSound,["capet" arg 7]);
+	var(stepSound,["carpet" arg 7]);
 	var(pullSounds,["updown\armorUp"]);
 	getterconst_func(getWeightCoefForCalcHP,20);
 

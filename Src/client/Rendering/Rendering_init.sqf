@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -14,7 +14,9 @@ namespace(Rendering,NULL)
 //#include "Effects\Effects_init.sqf"
 #include "RenderDistance.sqf"
 #include "Render_zpass.sqf"
-
+#include "Decals\Decals_init.sqf"
+#include "ViewDistance\vd_init.sqf"
+#include "Culling\cul_init.sqf"
 #include "Render_debug.sqf"
 
 //call render_dist_init;

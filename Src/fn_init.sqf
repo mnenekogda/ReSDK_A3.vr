@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -247,6 +247,11 @@ if (__sha != "Unrevisioned") then {
 };
 project_version = (((preprocessFile "src\VERSION") splitString endl) select 0) + "+" + (__sha);
 netSetGlobal(relicta_version,project_version);
+
+#ifdef SERVERDISABLEDLLCHECK
+	missionnamespace setvariable ["SERVERDISABLEDLLCHECK",true,true];
+	warning("Disabled client-side DLL signature checking");
+#endif
 
 #ifdef DISABLETEAMSPEAK
 vs_serverdisabled = true;

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -582,7 +582,7 @@ class(DirtpitIsRealAspect) extends(DirtpitGameAspect)
 		if !isTypeOf(getVar(_mob,basicRole),IRStationRole) exitwith {};
 		
 		{
-			setVar(_x,germs,GERM_COUNT_MAX);
+			callFuncParams(_x,setGerms,GERM_COUNT_MAX);
 		} foreach (values getVar(_mob,bodyParts));
 	};
 

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -304,6 +304,17 @@ region(raycast)
 	{
 		objParams_1(_dist);
 		getSelf(__lastinteractdata__) set [2,_dist];
+	};
+	func(__setLastInteractTarget)
+	{
+		objParams_1(_target);
+		getSelf(__lastinteractdata__) set [4,_target];
+	};
+	func(__setLastInteractPosStartEnd)
+	{
+		objParams_1(_pos);
+		getSelf(__lastinteractdata__) set [0,_pos];
+		getSelf(__lastinteractdata__) set [1,_pos];
 	};
 
 	#define __debug_getinteractiontarget_spheres__
@@ -656,6 +667,10 @@ region(Connect control events)
 	func(onConnected)
 	{
 		objParams();
+		
+		//установка имени для войса
+		netSyncObjVar(getSelf(owner),"rv_name",getVar(getSelf(client),name));
+
 		//загрузка действий (левое меню)
 		callSelfParams(loadActions,null);
 		//хандлер подключения
@@ -669,6 +684,9 @@ region(Connect control events)
 	{
 		objParams();
 		
+		//reset voip name
+		netSyncObjVar(getSelf(owner),"rv_name",null);
+		
 		//removing all localEffects
 		callSelf(localEffectClearAll);
 
@@ -680,6 +698,10 @@ region(Connect control events)
 		callSelf(releaseBuildingPreview);
 
 		callSelf(dropAllItemsInHands);
+
+		if not_equals(getSelf(__curRegion),"") then {
+			[getSelf(__curRegion),-1] call ai_modifyRegionRefCount;
+		};
 	};
 
 region(Mob location info: position; direction; speed)
@@ -2242,4 +2264,10 @@ region(previef functionality)
 
 		[this,false] call csys_onCraftEndPreview;
 	};
+
+region(ai system)
+	var(__aiagent,null);
+	getter_func(isAIAgent,!isNull(getSelf(__aiagent)));
+	var(__curRegion,""); // текущий регион в котором находится сущность
+
 endclass

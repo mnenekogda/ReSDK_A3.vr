@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -195,6 +195,7 @@ cpt2_data_canUseSelections = false;
 //wait for gate open
 ["cpt2_begin",{
     call sp_initializeDefaultPlayerHandlers;
+    [call sp_getActor] call sp_loadCharacterData;
     [true,0] call setBlackScreenGUI;
 
     ["cpt2_pos_start",0] call sp_setPlayerPos;

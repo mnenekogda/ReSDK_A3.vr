@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -28,6 +28,8 @@
 #include "SendCommand.sqf"
 
 #include "EscapeMenu.sqf"
+
+#include "EscapeMenu_inputsNative.sqf"
 
 #include "VersionViewer.sqf"
 
@@ -223,6 +225,8 @@ cd_onPrepareClient = {
 				"game" call client_setState;
 
 				rpcCall("onChangeEyeState",[_vision arg "load"]);
+
+				call vs_connectToVoiceSystem;
 
 				stopThisUpdate();
 

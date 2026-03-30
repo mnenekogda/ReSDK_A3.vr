@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -49,7 +49,7 @@ begin_playerSetup_descriptions = [
 	"Темнокожий народ, в прошлом порабощённый, ныне борющийся за выживание. "
 	+"Обладают хорошей выносливостью и физической силой, часто работают в шахтах и на каторге. "
 	+"Свободные углярцы - Трудокожие, как они сами себя называют, живут в теневых кругах и держатся вместе. "
-	+"Несмотря на тяжелую судьбу, они создали уникальную культуру со своими особыми обычиями и жаргоном."
+	+"Несмотря на тяжелую судьбу, они создали уникальную культуру со своими особыми обычаями и жаргоном."
 ];
 
 begin_playerSetup_curIndex = 0;
@@ -229,6 +229,9 @@ begin_playerSetup_checkName = {
 
 	_select = [_d,TEXT,[50-_xOffsetCenter + 1,90,_xOffsetCenter*2 - 2,8],_ctg] call createWidget;
 	[_select,"<t align='center' valign='middle' size='1.4'>"+sbr+"Выбрать"+"</t>"] call widgetSetText;
+	_btstart = [_prev,_next,_select];
+	{_x ctrlenable false} foreach _btstart;
+
 	_select ctrlAddEventHandler ["MouseButtonUp",{
 		params ["_b"];
 		INC(begin_playerSetup_mainStage);
@@ -328,6 +331,10 @@ begin_playerSetup_checkName = {
 		_fn = ctrltext (_txtWidNames select 0);
 		_ln = ctrltext (_txtWidNames select 1);
 		callFuncParams(call sp_getActor,generateNaming, capitalize(_fn) arg capitalize(_ln));
+		private _face = face (call begin_playerSetup_getCurMob);
+		callFuncParams(call sp_getActor,setMobFace,_face);
+
+		[call sp_getActor,[capitalize(_fn),capitalize(_ln),_face]] call sp_saveCharacterData;
 
 		nextFrame(displayClose);
 		call sp_cam_stopAllInterp;
@@ -426,6 +433,8 @@ begin_playerSetup_checkName = {
 	widgetSetFade(begin_playerSetup_widgets select 1,1,0);
 	[_blackgui,true] call deleteWidget;
 	begin_playerSetup_isLoading = false;
+	begin_playerSetup_list_buttons = _btstart;
+	
 	
 	{
 		"begin_playerselwhite" call sp_ai_waitForMobLoaded;
@@ -439,6 +448,7 @@ begin_playerSetup_checkName = {
 		[false,4] call sp_gui_setBlackScreenGUI;
 
 		{
+			{_x ctrlenable true} foreach begin_playerSetup_list_buttons;
 			widgetSetFade(begin_playerSetup_zones select 0,0,1.4);
 			widgetSetFade(begin_playerSetup_widgets select 1,0,1.4);
 		} call sp_threadCriticalSection;

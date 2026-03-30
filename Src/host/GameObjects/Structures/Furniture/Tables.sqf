@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -17,6 +17,12 @@ class(TableBase) extends(Furniture)
 	var(dr,2);
 	getter_func(isMovable,true);
 	getterconst_func(getCoefAutoWeight,30);
+endclass
+
+editor_attribute("EditorGenerated")
+class(SteelTableHandmade) extends(TableBase)
+	var(model,"ml\ml_object_new\ml_object_2\l00_intro_props\l01_tir_stol.p3d");
+	var(material,"MatMetal");
 endclass
 
 editor_attribute("EditorGenerated")
@@ -115,6 +121,17 @@ endclass
 editor_attribute("EditorGenerated")
 class(SmallWoodenTable) extends(MediumWoodenTable)
 	var(model,"a3\structures_f_epa\civ\camping\woodentable_small_f.p3d");
+endclass
+
+editor_attribute("EditorGenerated")
+class(SmallWoodenTable4) extends(SmallWoodenTable)
+	var(model,"ca\structures\furniture\tables\lobby_table\lobby_table.p3d");
+endclass
+
+editor_attribute("EditorGenerated")
+class(ReadingWoodenTable) extends(SmallWoodenTable)
+	var(model,"ml\ml_object_new\model_14_10\stol.p3d");
+	var(name,"Читальный столик");
 endclass
 
 class(SmallWoodenTable1) extends(SmallWoodenTable)

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -204,4 +204,17 @@ endclass
 
 class(CampfireBigDisabled) extends(CampfireBig)
 	var(lightIsEnabled,false);
+endclass
+
+class(Brazier) extends(CampfireBig)
+	var(name,"Жаровня");
+	var(desc,null);
+	var(model,"sterben_top\am_items\props\wastes\firepita\firepita.p3d");
+endclass
+
+class(TorchPost) extends(CampfireBig)
+	var(name,"Большой факел");
+	var(desc,null);
+	var(model,"sterben_top\am_items_2\props\furniture\home\lamps\oasistorchoff.p3d");
+	var(light,"SLIGHT_TORCH_POST" call lightSys_getConfigIdByName);
 endclass

@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -76,15 +76,12 @@ class(Hanger) extends(InfoBoard)
 		if (isTypeOf(_obj,Cloth)) exitWith {true};
 		super()
 	};
+endclass
 
-endclass	
-
-
-
-
-
-
-
+editor_attribute("EditorGenerated")
+class(Hanger2) extends(Hanger)
+	var(model,"ml\ml_object_new\model_05\polotence.p3d");
+endclass
 
 
 

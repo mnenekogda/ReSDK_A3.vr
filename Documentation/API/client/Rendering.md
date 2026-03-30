@@ -758,6 +758,282 @@ Description:
 - Param: _fromORX
 
 File: [client\Rendering\Camera\Camera_DEBUG.sqf at line 32](../../../Src/client/Rendering/Camera/Camera_DEBUG.sqf#L32)
+# cul_init.sqf
+
+## cul_culledObjects
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [client\Rendering\Culling\cul_init.sqf at line 30](../../../Src/client/Rendering/Culling/cul_init.sqf#L30)
+## cul_lastPlayerDir
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [client\Rendering\Culling\cul_init.sqf at line 31](../../../Src/client/Rendering/Culling/cul_init.sqf#L31)
+## cul_handleUpdate
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+-1
+```
+File: [client\Rendering\Culling\cul_init.sqf at line 32](../../../Src/client/Rendering/Culling/cul_init.sqf#L32)
+## cul_init
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\Culling\cul_init.sqf at line 15](../../../Src/client/Rendering/Culling/cul_init.sqf#L15)
+## cul_setEnable
+
+Type: function
+
+Description: 
+- Param: _mode
+
+File: [client\Rendering\Culling\cul_init.sqf at line 34](../../../Src/client/Rendering/Culling/cul_init.sqf#L34)
+## cul_processUpdate
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\Culling\cul_init.sqf at line 47](../../../Src/client/Rendering/Culling/cul_init.sqf#L47)
+# Decals_debug.sqf
+
+## dec_debug_const_layercolors
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMapFromArray [...
+```
+File: [client\Rendering\Decals\Decals_debug.sqf at line 220](../../../Src/client/Rendering/Decals/Decals_debug.sqf#L220)
+## dec_debug_layers
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[...
+```
+File: [client\Rendering\Decals\Decals_debug.sqf at line 226](../../../Src/client/Rendering/Decals/Decals_debug.sqf#L226)
+## dec_debug_visualizeTexture
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_debug.sqf at line 12](../../../Src/client/Rendering/Decals/Decals_debug.sqf#L12)
+## dec_debug_init
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_debug.sqf at line 16](../../../Src/client/Rendering/Decals/Decals_debug.sqf#L16)
+# Decals_init.sqf
+
+## DECAL_SPHERE_CONFIG
+
+Type: constant
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+Replaced value:
+```sqf
+"Sign_Sphere25cm_F"
+```
+File: [client\Rendering\Decals\Decals_init.sqf at line 305](../../../Src/client/Rendering/Decals/Decals_init.sqf#L305)
+## dec_internal_index
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+0
+```
+File: [client\Rendering\Decals\Decals_init.sqf at line 165](../../../Src/client/Rendering/Decals/Decals_init.sqf#L165)
+## dec_internal_const_pathPicture
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+PATH_PICTURE("textures\cloth_dirt.paa")
+```
+File: [client\Rendering\Decals\Decals_init.sqf at line 166](../../../Src/client/Rendering/Decals/Decals_init.sqf#L166)
+## dec_attachmentList
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+createHashMapFromArray[...
+```
+File: [client\Rendering\Decals\Decals_init.sqf at line 244](../../../Src/client/Rendering/Decals/Decals_init.sqf#L244)
+## dec_setRenderTarget
+
+Type: function
+
+Description: 
+- Param: _o
+- Param: _rtName
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 13](../../../Src/client/Rendering/Decals/Decals_init.sqf#L13)
+## dec_getRenderContext
+
+Type: function
+
+Description: 
+- Param: _rtName
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 25](../../../Src/client/Rendering/Decals/Decals_init.sqf#L25)
+## dec_applyContext
+
+Type: function
+
+Description: 
+- Param: _rctx
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 30](../../../Src/client/Rendering/Decals/Decals_init.sqf#L30)
+## dec_setRenderUniform
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 35](../../../Src/client/Rendering/Decals/Decals_init.sqf#L35)
+## dec_setRenderTarget2
+
+Type: function
+
+Description: 
+- Param: _o
+- Param: _ind
+- Param: _rtName
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 47](../../../Src/client/Rendering/Decals/Decals_init.sqf#L47)
+## dec_updateUniformRender
+
+Type: function
+
+Description: 
+- Param: _mob
+- Param: _value
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 68](../../../Src/client/Rendering/Decals/Decals_init.sqf#L68)
+## dec_resetUniformRender
+
+Type: function
+
+Description: ! Вероятно эта функция вызывает графические артефакты при первом вызове\первой установке для сущности
+- Param: _mob
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 158](../../../Src/client/Rendering/Decals/Decals_init.sqf#L158)
+## dec_getRenderLayerName
+
+Type: function
+
+Description: 
+- Param: _indUni
+- Param: _index
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 176](../../../Src/client/Rendering/Decals/Decals_init.sqf#L176)
+## dec_setRenderGerms
+
+Type: function
+
+Description: 
+- Param: _mob
+- Param: _tex
+- Param: _index
+- Param: _value
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 181](../../../Src/client/Rendering/Decals/Decals_init.sqf#L181)
+## dec_reloadThis
+
+Type: function
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 277](../../../Src/client/Rendering/Decals/Decals_init.sqf#L277)
+## dec_genattachments
+
+Type: function
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 280](../../../Src/client/Rendering/Decals/Decals_init.sqf#L280)
+## dec_makePlane
+
+Type: function
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 299](../../../Src/client/Rendering/Decals/Decals_init.sqf#L299)
+## dec_makeSphere
+
+Type: function
+
+> Exists if **DEBUG** defined
+
+Description: 
+
+
+File: [client\Rendering\Decals\Decals_init.sqf at line 307](../../../Src/client/Rendering/Decals/Decals_init.sqf#L307)
 # Effects_init.sqf
 
 ## RENDER_EFFECTS_UPDATEDELAY
@@ -1090,3 +1366,99 @@ Description:
 - Param: _showError (optional, default true)
 
 File: [client\Rendering\PostProcessing\PPInit.sqf at line 100](../../../Src/client/Rendering/PostProcessing/PPInit.sqf#L100)
+# vd_dynamicFog.sqf
+
+## SPHERE_CLASS
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+"Sphere_3DEN"
+```
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 6](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L6)
+## SPHERE_NOGROUND_CLASS
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+"SphereNoGround_3DEN"
+```
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 7](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L7)
+## SPHERE_OUTER_CLASS
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+"sign_sphere200cm_f"
+```
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 8](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L8)
+## SPHERE_USERTEX_CLASS
+
+Type: constant
+
+Description: 
+
+
+Replaced value:
+```sqf
+"usertexture10m_f"
+```
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 9](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L9)
+## vd_dynFog_objects
+
+Type: Variable
+
+Description: 
+
+
+Initial value:
+```sqf
+[]
+```
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 37](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L37)
+## vd_dynFog_init
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 11](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L11)
+## vd_dynFog_createObj
+
+Type: function
+
+Description: 
+- Param: _objclass
+
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 39](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L39)
+## vd_dynFog_procRender
+
+Type: function
+
+Description: 
+- Param: _obj
+
+File: [client\Rendering\ViewDistance\vd_dynamicFog.sqf at line 46](../../../Src/client/Rendering/ViewDistance/vd_dynamicFog.sqf#L46)
+# vd_init.sqf
+
+## vd_init
+
+Type: function
+
+Description: 
+
+
+File: [client\Rendering\ViewDistance\vd_init.sqf at line 11](../../../Src/client/Rendering/ViewDistance/vd_init.sqf#L11)

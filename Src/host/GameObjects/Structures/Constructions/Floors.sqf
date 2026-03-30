@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -16,6 +16,19 @@ class(SmallFloor) extends(Constructions)
 	editor_only(var(desc,"Обычное напольное покрытие");)
 	var(material,"MatWood");
 	var(dr,2);
+endclass
+
+editor_attribute("EditorGenerated")
+class(SmallSteelBridge) extends(SmallFloor)
+	var(name,"Мостик");
+	var(model,"ml\ml_object_new\model_14_10\reshetkad6.p3d");
+	var(material,"MatMetal");
+endclass
+
+editor_attribute("EditorGenerated")
+class(StonebrickFloor) extends(SmallFloor)
+	var(material,"MatStone");
+	var(model,"a3\structures_f\dominants\castle\castle_01_step_f.p3d");
 endclass
 
 editor_attribute("EditorGenerated")
@@ -107,6 +120,16 @@ class(WoodenSmallFloor) extends(SmallFloor)
 	var(model,"ml_shabut\sbs\poldrevko.p3d");
 endclass
 
+editor_attribute("EditorGenerated")
+class(WoodenMediumFloor) extends(WoodenSmallFloor)
+	var(model,"ml_shabut\exoduss\mostevich_cergevich.p3d");
+endclass
+
+//!warning no geometry
+class(WoodenMediumFloor2) extends(WoodenMediumFloor)
+	var(model,"apalon\metro_a3\redgates\woodbri.p3d");
+endclass
+
 class(WoodenPallet) extends(SmallFloor)
 	var(model,"ca\misc\paletaa.p3d");
 endclass
@@ -160,6 +183,11 @@ endclass
 editor_attribute("EditorGenerated")
 class(MediumSteelFloor) extends(SmallSteelPlate)
 	var(model,"ml_exodusnew\zhelezoplatforma.p3d");
+endclass
+
+editor_attribute("EditorGenerated")
+class(SmallSteelFloor) extends(MediumSteelFloor)
+	var(model,"ml_exodusnew\hodmetal.p3d");
 endclass
 
 editor_attribute("EditorGenerated")

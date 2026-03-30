@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -429,6 +429,9 @@ bool TestRange (int numberToCheck, int bottom, int top)
 #define none_of(values) ([values] call noneOf)
 
 #define generate_list(begin,end,fn_) ([begin,end,fn_] call generateList)
+
+//Возвращает индекс (с нуля) первого элемента массива A, который также существует в массиве B. Если общих элементов нет, возвращается -1. 
+#define find_any(_searchin,_tofind) ((_searchin)findAny(_tofind))
 
 //random helpers
 #define pick selectRandom

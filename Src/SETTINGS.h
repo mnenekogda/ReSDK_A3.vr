@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -96,11 +96,9 @@
 #define SERVER_PASSWORD server_password
 
 #ifndef EDITOR
-	#ifdef SP_MODE
-		#define __FORCE_DISABLE_LOCAL_PATHES__
-		//по умолчанию в прод.сп скриптовый эскейп включен всегда
-		#undef DISABLE_SCRIPTED_ESCAPE_MENU
-	#endif
+	#define __FORCE_DISABLE_LOCAL_PATHES__
+	//по умолчанию в прод.сп скриптовый эскейп включен всегда
+	#undef DISABLE_SCRIPTED_ESCAPE_MENU
 #endif
 
 #ifdef __FORCE_DISABLE_LOCAL_PATHES__
@@ -108,6 +106,13 @@
 	#undef USE_LOCAL_PATHES
 #endif
 
+//in RBUILDER mode force disable local pathes
+#ifdef RBUILDER
+	#undef USE_LOCAL_PATHES
+#endif
+
+//новая аудиосистема
+#define ENABLE_NEW_AUDIO_SYSTEM
 
 //Пути до разных сегментов
 #ifdef USE_LOCAL_PATHES
@@ -117,7 +122,11 @@
 	#define PATH_SOUND(sound) (getMissionPath (PATH_SOUND_FOLDER + sound))
 	#define PATH_PICTURE(pic) (PATH_PICTURE_FOLDER + pic)
 #else
-	#define PATH_SOUND_FOLDER "rel_gamecontent\sounds\"
+	#ifdef ENABLE_NEW_AUDIO_SYSTEM
+		#define PATH_SOUND_FOLDER "rel_gamecontent.pbo\sounds\"
+	#else
+		#define PATH_SOUND_FOLDER "rel_gamecontent\sounds\"
+	#endif
 	#define PATH_PICTURE_FOLDER "rel_gamecontent\data\"
 	
 	//#define PATH_PICTURE_FOLDER "rel_gamecontent\ui\"
@@ -230,6 +239,10 @@
 //выключение войса - работает только в режиме DEBUG
 #ifdef CMD__DISABLETEAMSPEAK
 	#define DISABLETEAMSPEAK
+#endif
+//отключение проверки подписей dll
+#ifdef CMD__SERVERDISABLEDLLCHECK
+	#define SERVERDISABLEDLLCHECK
 #endif
 
 #ifdef RELEASE

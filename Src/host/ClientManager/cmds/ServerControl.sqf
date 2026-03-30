@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -268,4 +268,28 @@ addCommandWithDescription("endgame",ACCESS_ADMIN,"Позволяет закон�
 	private _t = "Введите текст конца раунда. Обратите внимание, что такой конец раунда не позволит получить людям награды за выполнение задач";
 	callFuncParams(thisClient,ShowMessageBox,"Input" arg [_t arg gm_customTextResult arg "Конец раунда"] arg _h);
 
+};
+
+cmd_ai_internal_nextSpawnPos = null;
+
+addCommandWithDescription("ai_setspawnpoint",ACCESS_ADMIN,"Установить следующую точку спавна АИ")
+{
+	checkIfMobExists();
+	private _posAtl = callSelf(getPos);
+	cmd_ai_internal_nextSpawnPos = _posAtl;
+	callFuncParams(thisClient,localSay,"Точка спавна установлена: " + (str _posAtl) arg "system");
+};
+
+addCommandWithDescription("ai_spawn",ACCESS_ADMIN,"Спавнит АИ в следующей точке спавна")
+{
+	if isNull(cmd_ai_internal_nextSpawnPos) exitWith {
+		callFuncParams(thisClient,localSay,"Нет установленной точки спавна" arg "system");
+	};
+
+	private _mob = [cmd_ai_internal_nextSpawnPos] call ai_createMob;
+	if isNullReference(_mob) exitWith {
+		callFuncParams(thisClient,localSay,"Не удалось создать АИ" arg "system");
+	};
+
+	callFuncParams(thisClient,localSay,"АИ создан" arg "system");
 };

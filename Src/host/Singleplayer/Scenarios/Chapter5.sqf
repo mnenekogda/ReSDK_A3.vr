@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -24,6 +24,7 @@ cpt5_data_rifleSkill = 5;
 	};
 
 	call sp_initializeDefaultPlayerHandlers;
+	[call sp_getActor] call sp_loadCharacterData;
 	[sp_const_list_stdPlayerHandlers,false] call sp_setLockPlayerHandler;
 	[true] call sp_setPlayerSprintAllowed;
 
@@ -2205,6 +2206,7 @@ cpt5_endtitle_text = "Дату следующего запуска вы може
 			"Devil - озвучка",
 			"Rumyn - озвучка",
 			"Astra - озвучка",
+			"BublkJpeg - озвучка",
 			"Mnenekogda - звуки",
 			"",
 			"Тестеры:",

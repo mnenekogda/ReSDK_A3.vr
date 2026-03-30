@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -104,6 +104,9 @@ sp_gc_internal_listTriggersZones = [];
 sp_gc_internal_activeTriggers = createhashMap; //key name, value gameobject
 
 sp_initMainModule = {
+	//fix error trigger activate on prestart game
+	player setposatl [0,0,0];
+
 	//fix for ghost enter
 	startAsyncInvoke
 	{

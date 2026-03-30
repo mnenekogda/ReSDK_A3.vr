@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -194,6 +194,8 @@ nd_loadDisplay = {
 
 
 	private _d = call dynamicDisplayOpen;
+
+	[_d] call vs_addDisplayInputHandlers;
 	
 	//adding common inputs
 	_d displayAddEventHandler ["KeyUp",{

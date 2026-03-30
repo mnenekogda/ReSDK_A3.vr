@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -194,6 +194,13 @@ class(ServerClient) /*extends(NetObject)*/
 			[this,false] call gm_removeClientFromEmbark;
 		};
 
+		//удаляем голос клиента из голосования
+		[this] call gm_voteOnClientDisconnected;
+
+		//отправляем на войс сигнал что клиент отключился
+		[getSelf(name)] call vs_server_onClientDisconnected;
+
+
 		[format["Disconnected - %1 (netid: %2; disid: %3)",getSelf(name),getSelf(id),getSelf(discordId)]] call discLog;
 	};
 
@@ -352,6 +359,7 @@ class(ServerClient) /*extends(NetObject)*/
 		[format["Connected and ready - %1 (netid: %2; disid: %3)",getSelf(name),getSelf(id),getSelf(discordId)]] call discLog;
 
 		netSendVar("cd_clientName",getSelf(name),getSelf(id)); //быстренько отсылаем клиенту его имя
+		netSendVar("vs_localName",getSelf(name),getSelf(id)); //и дублим в войс систему временно
 
 		//Отправляем клиенту его настройки
 		callSelf(sendClientSettings);
@@ -421,6 +429,8 @@ class(ServerClient) /*extends(NetObject)*/
 
 			rpcSendToClient(callSelf(getOwner),"openLobby",callSelf(collectClientSettings));
 
+			[this] call gm_syncLobbyTimer;
+
 			//проверка до старта
 			call _postCheck;
 		};
@@ -443,6 +453,8 @@ class(ServerClient) /*extends(NetObject)*/
 				callSelfParams(onChangeState,"lobby");
 				
 				rpcSendToClient(callSelf(getOwner),"openLobby",callSelf(collectClientSettings));
+
+				[this] call gm_syncLobbyTimer;
 			};
 		};
 	};
@@ -1285,6 +1297,9 @@ region(discord accounting)
 
 		true
 	};
+
+	//prestart vote vars
+	var(prestartVotedTo,""); //за какой режим проголосовал клиент
 
 endclass
 

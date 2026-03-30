@@ -1,5 +1,5 @@
 // ======================================================
-// Copyright (c) 2017-2025 the ReSDK_A3 project
+// Copyright (c) 2017-2026 the ReSDK_A3 project
 // sdk.relicta.ru
 // ======================================================
 
@@ -153,18 +153,6 @@ class(HatUshankaUp3) extends(HatUshankaUp)
 	var(name,"Светло-коричневая безухая шапка");
 endclass
 
-//Устаревший класс
-editor_attribute("Deprecated" arg "Заменить на HatUshankaUp2.")
-class(HatOldUshanka) extends(HeadgearBase)
-	var(armaClass,"rds_Woodlander_cap3");
-endclass
-
-//Устаревший класс
-editor_attribute("Deprecated" arg "Заменить на HatUshankaUp.")
-class(HatGrayOldUshanka) extends(HatOldUshanka)
-	var(armaClass,"rds_Woodlander_cap1");
-endclass
-
 //Шапки
 class(WorkerCap) extends(HeadgearBase)
 	var(armaClass,"rds_worker_cap2");
@@ -198,13 +186,6 @@ class(CookerCap2) extends(CookerCap)
 	var(armaClass,"rds_Villager_cap2");
 	var(name,"Коричневый чепчик");
 	var(desc,"С пипкой на макушке! Сделан из мельтешиной шкурки!");
-endclass
-
-//Устаревший класс
-editor_attribute("Deprecated" arg "Заменить на WorkerCap2.")
-class(WorkerCoolCap) extends(WorkerCap)
-	var(armaClass,"rds_worker_cap4");
-	var(name,"Коричневая шапка");
 endclass
 
 //Капюшоны
